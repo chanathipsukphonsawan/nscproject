@@ -5,6 +5,7 @@ import { ToastContainer } from "react-toastify";
 import Login from "./component/Login/login"
 import Home from "./component/Home/home";
 import Logoutpage from "./page/logoutpage";
+import Publicpage from "./page/publicpage";
 
 const containerStyle = {
     position: 'fixed',
@@ -21,6 +22,7 @@ function App() {
         <Container>
             <BrowserRouter>
             <Routes>
+                <Route path="/public" element={<Publicpage/>} />
                 <Route path="/" element={<Home/>} />
                 <Route path="/login" element={<Login/>} />
                 <Route path="/logout" element={<Logoutpage/>} />
