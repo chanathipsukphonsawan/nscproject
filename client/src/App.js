@@ -22,8 +22,7 @@ function App() {
         <Container>
             <BrowserRouter>
             <Routes>
-                <Route path="/public" element={<Publicpage/>} />
-                <Route path="/" element={<Home/>} />
+                <Route path="/" element={<Publicpage/>}/>
                 <Route path="/login" element={<Login/>} />
                 <Route path="/logout" element={<Logoutpage/>} />
             </Routes>
