@@ -1,0 +1,14 @@
+html, body {
+    height: 105%;
+    margin: 0%;
+  }
+  
+  body {
+  
+    background-image: url('../image/bgnsc.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+  }
