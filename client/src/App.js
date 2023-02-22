@@ -4,6 +4,7 @@ import { ToastContainer } from "react-toastify";
 
 import Login from "./component/Login/login"
 import Home from "./component/Home/home";
+import Logoutpage from "./page/logoutpage";
 
 const containerStyle = {
     position: 'fixed',
@@ -22,6 +23,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home/>} />
                 <Route path="/login" element={<Login/>} />
+                <Route path="/logout" element={<Logoutpage/>} />
             </Routes>
             <ToastContainer style={containerStyle}/>
             </BrowserRouter>
