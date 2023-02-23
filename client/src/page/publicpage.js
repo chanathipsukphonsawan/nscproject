@@ -1,6 +1,9 @@
+import Loginbar from '../component/Custom/custom'
 import './background.css'
 const Publicpage =()=>{
-    return(<div style={{textAlign: 'center', display:'contents', justifyContent: 'center',}}>
+    return(
+    <div style={{textAlign: 'center', display:'contents', justifyContent: 'center',}}>
+        <Loginbar/>
         <table style={{ margin: 'auto',tableLayout:'auto' }}>
             <tr>
                 <td style={{ border: '1px solid black', padding: '10px' }}>
@@ -111,8 +114,6 @@ const Publicpage =()=>{
             </tr>
         </table>
                 </div>
-          
-      
         
         
     )

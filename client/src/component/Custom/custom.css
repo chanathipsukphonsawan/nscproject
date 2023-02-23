@@ -1,0 +1,48 @@
+.login-button:hover {
+    background-color: rgb(18, 165, 229);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7px;
+    opacity: 100;
+}
+
+.login-button {
+    background-color: white;
+    color: #0a1a70;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 18px;
+    width: 15%;
+    height: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Montserrat;
+    opacity: 1;
+    transition: background-color 0.6s ease-in-out, color 0.3s ease-in-out;
+}
+
+.image-container {
+    text-align: left;
+    flex: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.potrait {
+    height: 80px;
+    width: 80px;
+}
