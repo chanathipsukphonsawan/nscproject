@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from "axios";
 import { toast } from "react-toastify";
-
+import './login.css'
 
 
 
@@ -44,28 +44,53 @@ const Login = () => {
   };
 
   return (
-    <div>
+    <div className="box">
+      <div className="head">
+        <div className="top">
+          <div className="image">
+            <img src={require("../images/circleNsc.png")}/>
+          </div>
+          <div className="text">
+            <h1>NSC Login</h1>
+          </div>
+        </div>
       <Form>
-        <FormGroup>
+        <FormGroup className="input-field">
           <Input
             type="id"
+            className="input"
             name="identifier"
             value={user.identifier}
             onChange={handleChange}
             placeholder="Enter your ID"
           />
         </FormGroup>
-        <FormGroup>
+        <div class="line"></div>
+        <FormGroup className="input-field">
           <Input
             type="password"
+            className="input"
             name="password"
             value={user.password}
             onChange={handleChange}
             placeholder="Enter your password"
           />
         </FormGroup>
-        <Button onClick={buttonlogin}>LOGIN</Button>
+        <div className="line"></div>
+        <div>
+          <Button className="submit" onClick={buttonlogin}>LOGIN</Button>
+        </div>
       </Form>
+      <div className="two-col">
+        <div className="one">
+          <Input type="checkbox" name=""/>
+          <label for="check">Remember Me</label>
+        </div>
+        <div>
+          <label><a href="#">Forgot password?</a></label>
+        </div>
+      </div>
+    </div>
     </div>
   );
 };
