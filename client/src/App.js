@@ -6,6 +6,7 @@ import Login from "./component/Login/login"
 import Home from "./component/Home/home";
 import Logoutpage from "./page/logoutpage";
 import Publicpage from "./page/publicpage";
+import Announcement1page from "./page/Announcement1page"
 
 const containerStyle = {
     position: 'fixed',
@@ -23,6 +24,7 @@ function App() {
             <BrowserRouter>
             <Routes>
                 <Route path="/publicpage" element={<Publicpage/>}/>
+                <Route path="/Announcement1" element={<Announcement1page/>}/>
                 <Route path="/login" element={<Login/>} />
                 <Route path="/home" element={<Home/>} />
                 <Route path="/logout" element={<Logoutpage/>} />

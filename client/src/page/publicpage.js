@@ -1,14 +1,23 @@
 import Loginbar from '../component/Custom/custom'
 import './background.css'
+import { useNavigate } from 'react-router-dom';
+
+
 const Publicpage =()=>{
+    const navigate = useNavigate();
+
+  const Announcement = () => {
+    navigate('/Announcement1')}
     return(
     <div className='bg'>
     <div  style={{textAlign: 'center', display:'contents', justifyContent: 'center',}}>
         <Loginbar/>
         <table style={{ margin: 'auto',tableLayout:'auto' }}>
+            
             <tr>
                 <td style={{ border: '1px solid black', padding: '10px' }}>
                     <table style={{ margin:'0',tableLayout:'auto'}} >
+                    
                     <h1 style={{ textAlign: 'left',marginTop:'90px'}}>หัวข้อการแข่งขัน </h1>
                         <tr>
                             <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นิสิตและนักศึกษา</td>
@@ -95,7 +104,7 @@ const Publicpage =()=>{
                     
                     
                     <h1 style={{ textAlign: 'left',marginTop:'90px'}}>คุณสมบัติผู้สมัคร</h1>
-                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>กำลังศึกษาอยู่ในสถาบันการศึกษาในประเทศไทย</h4>
+                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'70px'}}>กำลังศึกษาอยู่ในสถาบันการศึกษาในประเทศไทย</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>ระดับนักเรียน : ประถมศึกษา มัธยมศึกษา อาชีวศึกษา  หรือเทียบเท่า(ปวช.)</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>ระดับนิสิตและนักศึกษา : อาชีวศึกษา หรือเทียบเท่า (ปวส.) และ อุดมศึกษา (ไม่เกินปริญญาตรี)</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>สมาชิก จำนวน 1-3 คน (ชื่อไม่ซ้ำในทีมอื่น) และที่ปรึกษาโครงการ 1 คน สังกัดสถาบันการศึกษาเดียวกัน</h4>
@@ -103,6 +112,7 @@ const Publicpage =()=>{
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>ผลงานที่เข้าร่วมการแข่งขัน ผ่านการรับรองจากที่ปรึกษาโครงการและหัวหน้าสถาบันการศึกษา</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>หากร่วมการแข่งขัน YSC 2022 แล้ว ไม่สามารถสมัคร  NSC 2022 ได้</h4>
                    
+                    <h1 onClick={Announcement} style={{textAlign:'center',marginTop:'70px',color:'blue'}}>ประกาศผลรอบข้อเสนอโครงการ รอบที่1</h1>
 
 
                     <h1 style={{ textAlign:'left',marginTop:'70px'}}>อีเมล์ศูนย์ประสานงาน</h1>
@@ -110,7 +120,10 @@ const Publicpage =()=>{
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>โทรศัพท์ 074 287076</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>e-mail : wimon@coe.psu.ac.th </h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>Facebook: NSC Thailand Southern Region</h4>
+                    
+                    
                 </td>
+                
                
             </tr>
         </table>
