@@ -33,7 +33,7 @@ const Login = () => {
           })
           
           setUser(initialUser);
-          navigate("/");
+          navigate("/home");
         }
       }
     } catch (error) {

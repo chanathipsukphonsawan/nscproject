@@ -22,8 +22,9 @@ function App() {
         <Container>
             <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Publicpage/>}/>
+                <Route path="/publicpage" element={<Publicpage/>}/>
                 <Route path="/login" element={<Login/>} />
+                <Route path="/home" element={<Home/>} />
                 <Route path="/logout" element={<Logoutpage/>} />
             </Routes>
             <ToastContainer style={containerStyle}/>
