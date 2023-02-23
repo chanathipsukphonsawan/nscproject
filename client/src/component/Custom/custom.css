@@ -1,5 +1,5 @@
 .login-button:hover {
-    background-color: rgb(18, 165, 229);
+    background-color: rgb(22, 15, 78);
     color: rgb(255, 255, 255);
     cursor: pointer;
     opacity: 0.85;
@@ -9,7 +9,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     margin-bottom: 7px;
     opacity: 100;
 }
