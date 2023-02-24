@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Button, Card } from "reactstrap";
 import "./custom.css"
 import Logo from "./../images/circleNsc.png"
+import App from "../../App";
 
 const Loginbar =() =>{
     const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -22,7 +23,33 @@ const Loginbar =() =>{
     
     return <bar>
         {isLoggedIn ?(
-            <Button onClick={handdletLogout}>Logout</Button>
+            <Box>
+                <AppBar position="static" style={{padding:"20", background:"#2E3B55", maxHeight:"200vh"}}>
+                    <Card
+                        raised
+                        sx={{
+                            maxWidth: 280,
+                            margin: "0 auto",
+                            padding: "0.1 em",
+                        }}>
+                        <div>
+                            <div className="image-container">
+                                <img className="potrait" src={require=(Logo)} align-item="left" alt="Logo"/>
+                                    <Typography textAlign={"left"} marginLeft={"100px"} marginBottom={"-90px"} 
+                                    marginTop={"-95px"} variant="h6" component="div" fontFamily={"Sukhumvit Set"} 
+                                    sx={{ flexGrow: 1 }}>
+                                        <p>NSC Southern Thailand 2022 <br/>ศูนย์ประสานงานโครงการ NSC ภาคใต้</p>
+                                    </Typography>
+                                    <div className="button-container">
+                                        <Button className="logout-button" color="inherit" marginLeft={"100px"} justify-items onClick={handdletLogout}>
+                                            ออกจากระบบ
+                                        </Button>
+                                    </div>
+                            </div>
+                        </div>
+                    </Card>
+                </AppBar>
+            </Box>
         ):(
             <Box>
                 <AppBar position="static" style={{padding:"20", background:'#2E3B55', maxHeight:"200vh"}}>
