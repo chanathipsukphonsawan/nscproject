@@ -9,7 +9,7 @@ const Announcementpage =()=>{
     return(
     <div>
         <Button onClick={back}>back</Button>
-        <table style={{ margin: 'auto', tableLayout: 'auto' }}>
+        <table style={{ margin: 'auto', tableLayout: 'auto', backgroundColor: '#CAF6F7', opacity: '80%' }}>
         <tr>
           <td style={{ border: '1px solid black', padding: '10px' }}>
             <table style={{ margin: '0', tableLayout: 'auto' }}>
