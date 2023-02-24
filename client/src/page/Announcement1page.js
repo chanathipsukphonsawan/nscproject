@@ -5,7 +5,7 @@ const Announcementpage =()=>{
     const navigate = useNavigate();
 
   const back = () => {
-    navigate('/publicpage')}
+    navigate('/')}
     return(
     <div>
         <Button onClick={back}>back</Button>

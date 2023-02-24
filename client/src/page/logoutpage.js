@@ -10,7 +10,7 @@ const Logoutpage = () => {
   const navigate = useNavigate();
 
   const handdletLogout = () => {
-    navigate('/publicpage')}
+    navigate('/')}
   
     
     return (
@@ -18,10 +18,9 @@ const Logoutpage = () => {
       <div className="image1">
             <img src={require("../image/circleNsc.png")}/>
       </div>
-      <h1 >  THANK  YOU</h1>
       
       <div className='textout2'>
-      <h1 >ออกจากระบบ</h1>
+        <h1 >ออกจากระบบแล้ว</h1>
       <div >
         <Button className='submit2' onClick={handdletLogout}>กลับสู่หน้าหลัก</Button>
       </div>
