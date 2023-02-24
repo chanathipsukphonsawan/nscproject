@@ -124,7 +124,7 @@ label a:hover{
     transition: .3s ;
 }
 .tablecolor{
-    background-color:#bcbdbe
+    background-color:#caebff;
 }
 .image1 {
     max-width: 30%;
@@ -135,6 +135,4 @@ label a:hover{
     margin: 25%;
     margin-bottom:0% ;
     margin-top: -20%;
-    
-    
 }

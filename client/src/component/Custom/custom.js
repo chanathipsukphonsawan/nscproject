@@ -37,7 +37,7 @@ const Loginbar =() =>{
                             <div className="image-container">
                                 <img className="potrait" src={require=(Logo)} align-item= "left" alt="Logo"/>
                                     <Typography textAlign={"left"} marginLeft={"100px"} marginBottom={"-90px"} marginTop={"-95px"} variant="h6" component="div" fontFamily={"Sukhumvit Set"} sx={{ flexGrow: 1 }}>
-                                        <p>NSC Southern Thailand Web 2022 <br/>เว็บศูนย์ประสานงานโครงการ NSC ภาคใต้</p>
+                                        <p>NSC Southern Thailand 2022 <br/>ศูนย์ประสานงานโครงการ NSC ภาคใต้</p>
                                     </Typography>
                                     <div className="button-container">
                                         <Button className="login-button" color="inherit" justify-items onClick={() => navigate("/login/")}>

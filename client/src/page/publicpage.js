@@ -20,9 +20,9 @@ const Publicpage =()=>{
                     
                     <h1 style={{ textAlign: 'left',marginTop:'90px'}}>หัวข้อการแข่งขัน </h1>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นิสิตและนักศึกษา</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>หมวดการแข่งขัน</td>
+                            <th style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นิสิตและนักศึกษา</th>
+                            <th style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</th>
+                            <th style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>หมวดการแข่งขัน</th>
                         </tr>
                         <tr>
                             <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>11</td>
@@ -82,7 +82,7 @@ const Publicpage =()=>{
                         <tr>
                             <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>กำหนดการส่งรายงานฉบับสมบูรณ์เข้าระบบ
                             GENA http://nsc.siit.tu.ac.th/GENA2/login.php</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>ภายในวันที่ 31 มกราคม 2566 ไม่เกิน 17.00 น.</td>
+                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>ภายในวันที่ 31 มกราคม 2565 ไม่เกิน 17.00 น.</td>
                         </tr>
                         <tr>
                             <th style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>กำหนดการนำเสนอผลงานแบบออนไลน์ต่อคณะกรรมการพิจารณาผลงาน</th>
@@ -90,11 +90,11 @@ const Publicpage =()=>{
                         </tr>
                         <tr>
                             <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>ศูนย์ประสานงานภูมิภาค ภาคใต้</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>วันที่ 9 กุมภาพันธ์ 2566</td>
+                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>วันที่ 9 กุมภาพันธ์ 2565</td>
                         </tr>
                         <tr>
                             <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>ประกาศรายชื่อโครงการรับทุนรอบนำเสนอผลงานและโครงการที่ผ่านเข้ารอบชิงชนะเลิศ</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>วันที่ 17 กุมภาพันธ์ 2566</td>
+                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>วันที่ 17 กุมภาพันธ์ 2565</td>
                         </tr>
                         <tr>
                             <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>การเเข่งขันรอบชิงชนะเลิศ</td>
@@ -115,7 +115,7 @@ const Publicpage =()=>{
                     <h1 onClick={Announcement} style={{textAlign:'center',marginTop:'70px',color:'blue'}}>ประกาศผลรอบข้อเสนอโครงการ รอบที่1</h1>
 
 
-                    <h1 style={{ textAlign:'left',marginTop:'70px'}}>อีเมล์ศูนย์ประสานงาน</h1>
+                    <h1 style={{ textAlign:'left',marginTop:'70px'}}>ติดต่อเรา</h1>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>คณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>โทรศัพท์ 074 287076</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>e-mail : wimon@coe.psu.ac.th </h4>
