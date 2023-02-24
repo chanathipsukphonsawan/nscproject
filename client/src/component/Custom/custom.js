@@ -41,7 +41,7 @@ const Loginbar =() =>{
                                     </Typography>
                                     <div className="button-container">
                                         <Button className="login-button" color="inherit" justify-items onClick={() => navigate("/login/")}>
-                                            Login
+                                            เข้าสู่ระบบ
                                         </Button>
                                     </div>
                             </div>
