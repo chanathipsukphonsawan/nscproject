@@ -288,6 +288,102 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนหาดใหญ่วิทยาลัย</td>
                   </tr>
+                  <tr>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>34</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p21s0069</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>Beepro แอพพลิเคชันสำหรับผู้เลี้ยงผึ้งเพื่อความสะดวกสบายของผู้เลี้ยงผึ้งและเกษตรกร</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนจุฬาภรณราชวิทยาลัยสตูล</td>
+                  </tr>
+                  <tr>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>35</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p21s0072</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>"อีจาล่า" แอปเพื่อการเรียนรู้</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยสตูล</td>
+                  </tr>
+                  <tr>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>36</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p21s0090</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>ปัญญาหลากมิติ</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนแสงทองวิทยา</td>
+                  </tr>
+                  <tr>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>37</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p21s0091</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>การใช้แชตบอทเพื่อการเรียนรู้</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนแสงทองวิทยา</td>
+                  </tr>
+                  <tr>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>38</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p21s0097</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>เครื่องวัดระยะทางตรีโกณมิติ</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนตันหยงมัส</td>
+                  </tr>
+                  <tr>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>39</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p21s0113</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>สื่อการสอนเสริมสร้างการเรียนทักษะทางด้านวิทยาศาสตร์และภาษาด้วยวิดีโอเกม</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยนครศรีธรรมราช</td>
+                  </tr>
+                  <tr>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>40</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p21s0119</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>การพัฒนาแอปพลิเคชันสำหรับจำแนกชนิดลูกน้ำยุง</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยตรัง</td>
+                  </tr>
+                  <tr>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>41</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p22s0039</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>ระบบตรวจวัดและควบคุมการเกิดวัชพืชด้วยเทคโนโลยี LoRaWAN</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อบริหารการการเปลี่ยนแปลงสภาพภูมิอากาศและสิ่งแวดล้อม</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียน มอ. วิทยานุสรณ์ สุราษฎร์ธานี</td>
+                  </tr>
+                  <tr>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>42</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p22s0058</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>เครื่องตรวจสอบสภาพดินสำหรับการปลูกทุเรียน</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อบริหารการการเปลี่ยนแปลงสภาพภูมิอากาศและสิ่งแวดล้อม</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>วิทยาลัยเทคนิคยะลา</td>
+                  </tr>
+                  <tr>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>43</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p22s0067</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>การตรวจหาโรคในทุเรียนจากภาพถ่ายทางอากาศ</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อบริหารการการเปลี่ยนแปลงสภาพภูมิอากาศและสิ่งแวดล้อม</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนศรียาภัย</td>
+                  </tr>
+                  <tr>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>44</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p22s0071</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>ระบบจัดการพลังงานไฟฟ้าในระดับชุมชน</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อบริหารการการเปลี่ยนแปลงสภาพภูมิอากาศและสิ่งแวดล้อม</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยสตูล</td>
+                  </tr>
+                  <tr>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>45</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p22s0115</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมผู้ช่วยชาวสวนปาล์มคำนวณผลผลิตจากสภาพอากาศ</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อบริหารการการเปลี่ยนแปลงสภาพภูมิอากาศและสิ่งแวดล้อม</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิเชียรมาตุ</td>
+                  </tr>
                 </div>
             </table>
           </td>
