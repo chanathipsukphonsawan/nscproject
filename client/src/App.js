@@ -4,7 +4,6 @@ import { ToastContainer } from "react-toastify";
 
 import Login from "./component/Login/login"
 import Home from "./component/Home/home";
-import Logoutpage from "./page/logoutpage";
 import Publicpage from "./page/publicpage";
 import Announcement1page from "./page/Announcement1page"
 import Announcement2page from "./page/Announcement2page"
@@ -29,7 +28,6 @@ function App() {
                 <Route path="/Announcement2" element={<Announcement2page/>}/>
                 <Route path="/login" element={<Login/>} />
                 <Route path="/home" element={<Home/>} />
-                <Route path="/logout" element={<Logoutpage/>} />
             </Routes>
             <ToastContainer style={containerStyle}/>
             </BrowserRouter>

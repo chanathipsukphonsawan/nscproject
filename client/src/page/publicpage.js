@@ -19,7 +19,7 @@ const Announcement2 = () => {
             <tr>
                 <td style={{ border: '1px solid black', padding: '10px' }}>
                     <table style={{ margin:'0',tableLayout:'auto'}} >
-                    <a onClick={Announcement} style={{marginLeft:'0%',marginTop:'10%',marginBottom:'20',color:'blue',fontSize:'200%'}} href="#" >ประกาศผลรอบข้อเสนอโครงการ รอบที่1</a>
+                    <a onClick={Announcement} style={{marginLeft:'0%',marginTop:'10%',marginBottom:'20%',color:'blue',fontSize:'200%'}} href="#" >ประกาศผลรอบข้อเสนอโครงการ รอบที่1</a>
                     <h1>  </h1>
 
                     <a onClick={Announcement2} style={{marginLeft:'0%',marginTop:'20%',color:'blue',fontSize:'200%'}} href="#" >ประกาศผลรอบข้อเสนอโครงการ รอบที่2</a>

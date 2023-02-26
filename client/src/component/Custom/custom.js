@@ -18,7 +18,7 @@ const Loginbar =() =>{
     const handdletLogout = () => {
         localStorage.removeItem("jwt")
         setIsLoggedIn(false)
-        navigate('/logout')
+        navigate('/')
     }
     
     return <bar>

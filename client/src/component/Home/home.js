@@ -2,7 +2,7 @@ import Loginbar from "../Custom/custom";
 
 const Home = () =>{
     return (
-        <div>
+        <div className="bg">
             <Loginbar/>
         </div>
     )
