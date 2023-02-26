@@ -27,7 +27,7 @@ const Announcementpage =()=>{
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>1</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p11s0052</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมช่วยเหลือและวิเคราะห์เพื่อพัฒนาการเล่นAOV</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมช่วยเหลือและวิเคราะห์เพื่อพัฒนาการเล่น AOV</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นิสิต นักศึกษา</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>มหาวิทยาลัยวลัยลักษณ์</td>
@@ -67,7 +67,7 @@ const Announcementpage =()=>{
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>6</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p12s0033</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>การพัฒนาเครื่องช่วยเหลือการใช้งานWRF-CHEM เพื่อการจาลองการเคลื่อนที่ของอนุภาคฝุ่นPM2.5</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>การพัฒนาเครื่องช่วยเหลือการใช้งาน WRF-CHEM เพื่อการจาลองการเคลื่อนที่ของอนุภาคฝุ่น PM2.5</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นิสิต นักศึกษา</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>มหาวิทยาลัยสงขลานครินทร์</td>
@@ -75,7 +75,7 @@ const Announcementpage =()=>{
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>7</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p12s0088</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>อากาศดีๆในห้องที่เราต้องการ</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>อากาศดีๆ ในห้องที่เราต้องการ</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นิสิต นักศึกษา</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>มหาวิทยาลัยวลัยลักษณ์</td>
@@ -123,8 +123,8 @@ const Announcementpage =()=>{
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>13</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p14s0001</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>ลองดู- ระบบทดลองสินค้าและบริการสาหรับผู้ประกอบการเพื่อการวิจัยตลาดภายใต้สถานการณ์ COVID-19</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19และโรคติดเชื้ออุบัติใหม่</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>ลองดู - ระบบทดลองสินค้าและบริการสาหรับผู้ประกอบการเพื่อการวิจัยตลาดภายใต้สถานการณ์ COVID-19</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19 และโรคติดเชื้ออุบัติใหม่</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นิสิต นักศึกษา</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ต</td>
                   </tr>
@@ -132,7 +132,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>14</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p14s0066</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>พีคอด</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19และโรคติดเชื้ออุบัติใหม่</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19 และโรคติดเชื้ออุบัติใหม่</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นิสิต นักศึกษา</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ต</td>
                   </tr>
@@ -140,7 +140,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>15</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p14s0103</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>GermyJunk: บริการค้นหาและวิเคราะห์จุดรับขยะปนเปื้อนโรคติดเชื้อไวรัสโคโรนา 2019 (COVID-19)</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19และโรคติดเชื้ออุบัติใหม่</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19 และโรคติดเชื้ออุบัติใหม่</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นิสิต นักศึกษา</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>มหาวิทยาลัยสงขลานครินทร์</td>
                   </tr>
@@ -148,7 +148,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>16</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p14s0104</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>แอปพลิเคชันซื้อขายอาหารหรือขนมแบบนัดรับ</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19และโรคติดเชื้ออุบัติใหม่</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19 และโรคติดเชื้ออุบัติใหม่</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นิสิต นักศึกษา</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ต</td>
                   </tr>
@@ -156,7 +156,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>17</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p14s0110</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>ระบบแชทบอทเพื่อส่งเสริมการตลาดออนไลน์สาหรับสินค้าทางการเกษตรและประมง</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19และโรคติดเชื้ออุบัติใหม่</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19 และโรคติดเชื้ออุบัติใหม่</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นิสิต นักศึกษา</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>มหาวิทยาลัยสงขลานครินทร์</td>
                   </tr>
@@ -164,7 +164,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>18</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24p14s0112</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>การพัฒนาโปรแกรมประยุกต์สำหรับการจัดการการบริจาคโลหิต</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19และโรคติดเชื้ออุบัติใหม่</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19 และโรคติดเชื้ออุบัติใหม่</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นิสิต นักศึกษา</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>มหาวิทยาลัยวลัยลักษณ์</td>
                   </tr>
@@ -174,7 +174,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โลกของวรรณคดี</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยสตูล</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย สตูล</td>
                   </tr>
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>20</td>
@@ -182,7 +182,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โครี่ พื้นฐานเกาหลีใน 4 สัปดาห์</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยตรัง</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย ตรัง</td>
                   </tr>
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>21</td>
@@ -190,7 +190,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>ย้อนเวลาศึกษาธรณีกาล</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยตรัง</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย ตรัง</td>
                   </tr>
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>22</td>
@@ -198,7 +198,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>อี เคอเรนซี</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยตรัง</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย ตรัง</td>
                   </tr>
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>23</td>
@@ -206,7 +206,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>Uclass: แอปพลิเคชั่นสำหรับห้องเรียนออนไลน์</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยตรัง</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย ตรัง</td>
                   </tr>
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>24</td>
@@ -214,7 +214,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>การทดลองสำหรับนักวิจัยฝึกหัด</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยตรัง</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย ตรัง</td>
                   </tr>
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>25</td>
@@ -254,7 +254,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>เกมเพื่อช่วยในการจดจำตารางธาตุ</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยนครศรีธรรมราช</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย นครศรีธรรมราช</td>
                   </tr>
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>30</td>
@@ -270,7 +270,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>แอปพลิเคชั่นสำหรับเรียนรู้ภาษาญี่ปุ่น</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยตรัง</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย ตรัง</td>
                   </tr>
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>32</td>
@@ -278,7 +278,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>สื่อการเรียนรู้ตารางธาตุ</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยตรัง</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย ตรัง</td>
                   </tr>
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>33</td>
@@ -294,7 +294,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>Beepro แอพพลิเคชันสำหรับผู้เลี้ยงผึ้งเพื่อความสะดวกสบายของผู้เลี้ยงผึ้งและเกษตรกร</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนจุฬาภรณราชวิทยาลัยสตูล</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนจุฬาภรณราชวิทยาลัย สตูล</td>
                   </tr>
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>35</td>
@@ -302,7 +302,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>"อีจาล่า" แอปเพื่อการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยสตูล</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย สตูล</td>
                   </tr>
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>36</td>
@@ -334,7 +334,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>สื่อการสอนเสริมสร้างการเรียนทักษะทางด้านวิทยาศาสตร์และภาษาด้วยวิดีโอเกม</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยนครศรีธรรมราช</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย นครศรีธรรมราช</td>
                   </tr>
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>40</td>
@@ -342,7 +342,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>การพัฒนาแอปพลิเคชันสำหรับจำแนกชนิดลูกน้ำยุง</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยตรัง</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย ตรัง</td>
                   </tr>
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>41</td>
@@ -350,7 +350,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>ระบบตรวจวัดและควบคุมการเกิดวัชพืชด้วยเทคโนโลยี LoRaWAN</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อบริหารการการเปลี่ยนแปลงสภาพภูมิอากาศและสิ่งแวดล้อม</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียน มอ. วิทยานุสรณ์ สุราษฎร์ธานี</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียน มอ.วิทยานุสรณ์ สุราษฎร์ธานี</td>
                   </tr>
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>42</td>
@@ -374,7 +374,7 @@ const Announcementpage =()=>{
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>ระบบจัดการพลังงานไฟฟ้าในระดับชุมชน</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โปรแกรมเพื่อบริหารการการเปลี่ยนแปลงสภาพภูมิอากาศและสิ่งแวดล้อม</td>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</td>
-                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัยสตูล</td>
+                    <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย สตูล</td>
                   </tr>
                   <tr>
                     <td style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>45</td>
