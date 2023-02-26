@@ -8,6 +8,8 @@ const Publicpage =()=>{
 
   const Announcement = () => {
     navigate('/Announcement1')}
+const Announcement2 = () => {
+    navigate('/Announcement2')}
     return(
     <div className='bg'>
     <div  style={{textAlign: 'center', display:'contents', justifyContent: 'center',}}>
@@ -17,6 +19,10 @@ const Publicpage =()=>{
             <tr>
                 <td style={{ border: '1px solid black', padding: '10px' }}>
                     <table style={{ margin:'0',tableLayout:'auto'}} >
+                    <a onClick={Announcement} style={{marginLeft:'0%',marginTop:'10%',marginBottom:'20',color:'blue',fontSize:'200%'}} href="#" >ประกาศผลรอบข้อเสนอโครงการ รอบที่1</a>
+                    <h1>  </h1>
+
+                    <a onClick={Announcement2} style={{marginLeft:'0%',marginTop:'20%',color:'blue',fontSize:'200%'}} href="#" >ประกาศผลรอบข้อเสนอโครงการ รอบที่2</a>
                     
                     <h1 style={{ textAlign: 'left',marginTop:'90px'}}>หัวข้อการแข่งขัน </h1>
                         <tr>
@@ -112,7 +118,7 @@ const Publicpage =()=>{
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>ผลงานที่เข้าร่วมการแข่งขัน ผ่านการรับรองจากที่ปรึกษาโครงการและหัวหน้าสถาบันการศึกษา</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>หากร่วมการแข่งขัน YSC 2022 แล้ว ไม่สามารถสมัคร  NSC 2022 ได้</h4>
                    
-                    <h1 onClick={Announcement} style={{textAlign:'center',marginTop:'70px',color:'blue'}}>ประกาศผลรอบข้อเสนอโครงการ รอบที่1</h1>
+                    
 
 
                     <h1 style={{ textAlign:'left',marginTop:'70px'}}>ติดต่อเรา</h1>

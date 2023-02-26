@@ -7,7 +7,7 @@ const Announcementpage =()=>{
   const back = () => {
     navigate('/')}
     return(
-    <div>
+    <div className='bg'>
         <Button onClick={back}>back</Button>
         <table style={{ margin: 'auto', tableLayout: 'auto', backgroundColor: '#FFFDFD', opacity: '80%'}}>
         <tr>

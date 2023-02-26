@@ -7,6 +7,7 @@ import Home from "./component/Home/home";
 import Logoutpage from "./page/logoutpage";
 import Publicpage from "./page/publicpage";
 import Announcement1page from "./page/Announcement1page"
+import Announcement2page from "./page/Announcement2page"
 
 const containerStyle = {
     position: 'fixed',
@@ -25,6 +26,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Publicpage/>}/>
                 <Route path="/Announcement1" element={<Announcement1page/>}/>
+                <Route path="/Announcement2" element={<Announcement2page/>}/>
                 <Route path="/login" element={<Login/>} />
                 <Route path="/home" element={<Home/>} />
                 <Route path="/logout" element={<Logoutpage/>} />
