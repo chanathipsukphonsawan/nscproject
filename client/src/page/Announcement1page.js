@@ -10,7 +10,6 @@ const Announcementpage =()=>{
     return(
     <div className='bg'>
         <Button onClick={back}>back</Button>
-        <table>
         <tr>
           <td>
             <table>
@@ -389,7 +388,6 @@ const Announcementpage =()=>{
             </table>
           </td>
         </tr>
-      </table>
     </div>
     )
   }
