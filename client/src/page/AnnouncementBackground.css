@@ -3,12 +3,6 @@
     opacity: 80%;
   }
   
-  table {
-    margin: auto;
-    table-layout: auto;
-    background-color: #FFFDFD;
-  }
-  
   table tr th,
   table tr td {
     border: 1px solid black;
