@@ -8,7 +8,7 @@ const Publicpage =()=>{
 
   const Announcement = () => {
     navigate('/Announcement1')}
-const Announcement2 = () => {
+  const Announcement2 = () => {
     navigate('/Announcement2')}
     return(
     <div className='bg'>
@@ -141,4 +141,4 @@ const Announcement2 = () => {
 
 }
 
-export default Publicpage
+export default Publicpage;

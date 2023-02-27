@@ -1,13 +1,13 @@
 import { useNavigate } from 'react-router-dom';
 import { Button } from 'reactstrap';
 
-const Announcementpage2 =()=>{
+const Announcementpage2 = () => {
     const navigate = useNavigate();
 
   const back = () => {
     navigate('/')}
     return(
-        <div className='bg'>
+    <div className='bg'>
         <Button onClick={back}>back</Button>
         <table style={{ margin: 'auto', tableLayout: 'auto', backgroundColor: '#FFFDFD', opacity: '80%'}}>
         <tr>
