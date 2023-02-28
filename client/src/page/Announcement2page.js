@@ -12,7 +12,7 @@ const Announcementpage2 = () => {
         <Button onClick={back}>back</Button>
         <tr>
           <td>
-            <table>
+            <table style={{ margin: 'auto', tableLayout: 'auto', backgroundColor: 'rgba(255, 253, 253, 0.8)' }}>
                 <h1 style={{ textAlign: 'center', fontSize: '20px', marginTop: '30px' }}>การแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทย ครั้งที่ 24 (NSC 2022)</h1>
                 <h2 style={{ textAlign: 'center', fontSize: '20px', marginTop: '30px' }}>รายชื่อโครงการที่ผ่านรับทุนรอบนำเสนอผลงาน ศูนย์ประสานงานภูมิภาค"ภาคใต้"</h2>
                 <div style={{textAlign: 'center', justifyContent: 'center',}}>
