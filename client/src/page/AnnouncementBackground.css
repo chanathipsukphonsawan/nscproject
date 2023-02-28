@@ -1,11 +1,14 @@
 .bg_an {
-    background-color: #FFFDFD;
-    opacity: 80%;
-  }
-  
-  table tr th,
-  table tr td {
-    border: 1px solid black;
-    padding: 10px;
-    background-color: #caebff;
-  }
+  background-color: rgba(255, 253, 253, 0.8);
+  background-image: url('../image/bglogin.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+table tr th,
+table tr td {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: rgba(202, 235, 255, 0.5);
+}
