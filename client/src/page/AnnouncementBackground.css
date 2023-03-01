@@ -16,6 +16,7 @@ table tr td {
 .container1{
   max-width: 1200px;
   margin:auto;
+  display: flex;
 }
 .div1{
   
@@ -55,7 +56,8 @@ table tr td {
   
   .container1{
     max-width: 600px;
-    margin:auto
+    margin:auto;
+    display: flex;
   }
   .div1{
   
@@ -93,7 +95,8 @@ table tr td {
   
   .container1{
     min-width: 600px;
-    margin:auto
+    margin:auto;
+    display: flex;
   }
   .div1{
   
@@ -132,7 +135,8 @@ table tr td {
   
   .container1{
     min-width: 768px;
-    margin:auto
+    margin:auto;
+    display: flex;
   }
   .div1{
   
@@ -170,7 +174,8 @@ table tr td {
   
   .container1{
     min-width: 992px;
-    margin: auto
+    margin: auto;
+    display: flex;
   }
   .div1{
   
@@ -208,7 +213,8 @@ table tr td {
   
   .container1{
     min-width: 1200px;
-    margin: auto
+    margin: auto;
+    display: flex;
   }
   .div1{
   

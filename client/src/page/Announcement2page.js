@@ -9,8 +9,9 @@ const Announcementpage2 = () => {
     navigate('/')}
     return(
     <div className='bg_an'>
+      <Button onClick={back}>back</Button>
       <div className='container1'></div>
-        <Button onClick={back}>back</Button>
+        
         <div className='container1'>
         <tr>
           <td>

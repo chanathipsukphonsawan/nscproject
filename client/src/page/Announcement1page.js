@@ -11,9 +11,10 @@ const Announcementpage =()=>{
       
         
         <div className='bg_an'>
+          <Button onClick={back} className='back'>back</Button>
           <div className='container1'>
             
-              <Button onClick={back} className='back'>back</Button>
+              
               <tr>
                 <td>
                   <table className='tablestyle'>
