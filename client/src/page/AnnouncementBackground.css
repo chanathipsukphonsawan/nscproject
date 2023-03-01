@@ -1,9 +1,10 @@
 .bg_an {
   background-color: rgba(255, 253, 253, 0.8);
-  background-image: url('../image/bglogin.jpg');
+  background-image: url('../image/backglogin.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  width: auto;
 }
 
 table tr th,
@@ -12,3 +13,223 @@ table tr td {
   padding: 10px;
   background-color: rgba(202, 235, 255, 0.5);
 }
+.container1{
+  max-width: 1200px;
+  margin:auto;
+}
+.div1{
+  
+  width: 79.16%;
+  margin-left: 15.625%;
+  text-align: center;
+  justify-content: center;
+
+}
+.textannouncement{
+  text-align:center;
+  font-size: 20px;
+  margin-top: 2.5%;
+  margin-left:15.625%;
+}
+.back{
+  width:12.5%;
+  margin-left:15.625%;
+
+
+}
+.tablestyle{
+  margin: auto;
+  table-layout: auto;
+
+}
+
+@media only screen and (max-width:600) {
+  .bg_an {
+    background-color: rgba(255, 253, 253, 0.8);
+    background-image: url('../image/backglogin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+  }
+  
+  .container1{
+    max-width: 600px;
+    margin:auto
+  }
+  .div1{
+  
+    width: 79.16%;
+    margin-left: 15.625%;
+    text-align: center;
+    justify-content: center;
+  
+  }
+  .textannouncement{
+    text-align:center;
+    font-size: 20px;
+    margin-top: 2.5%;
+    margin-left:15.625%;
+  }
+  .back{
+    width:12.5%;
+    margin-left:15.625%;
+  }
+  .tablestyle{
+    margin: auto;
+    table-layout: auto;
+  
+  }
+}
+@media only screen and (min-width:600) {
+  .bg_an {
+    background-color: rgba(255, 253, 253, 0.8);
+    background-image: url('../image/backglogin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+  }
+  
+  .container1{
+    min-width: 600px;
+    margin:auto
+  }
+  .div1{
+  
+    width: 79.16%;
+    margin-left: 15.625%;
+    text-align: center;
+    justify-content: center;
+  
+  }
+  .textannouncement{
+    text-align:center;
+    font-size: 20px;
+    margin-top: 2.5%;
+    margin-left:15.625%;
+  }
+  .back{
+    width:12.5%;
+    margin-left:15.625%;
+  }
+  .tablestyle{
+    margin: auto;
+    table-layout: auto;
+  
+  }
+}
+
+@media only screen and (min-width:768) {
+  .bg_an {
+    background-color: rgba(255, 253, 253, 0.8);
+    background-image: url('../image/backglogin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+  }
+  
+  .container1{
+    min-width: 768px;
+    margin:auto
+  }
+  .div1{
+  
+    width: 79.16%;
+    margin-left: 15.625%;
+    text-align: center;
+    justify-content: center;
+  
+  }
+  .textannouncement{
+    text-align:center;
+    font-size: 20px;
+    margin-top: 2.5%;
+    margin-left:15.625%;
+  }
+  .back{
+    width:12.5%;
+    margin-left:15.625%;
+  }
+  .tablestyle{
+    margin: auto;
+    table-layout: auto;
+  
+  }
+}
+@media only screen and (min-width:992) {
+  .bg_an {
+    background-color: rgba(255, 253, 253, 0.8);
+    background-image: url('../image/backglogin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+  }
+  
+  .container1{
+    min-width: 992px;
+    margin: auto
+  }
+  .div1{
+  
+    width: 79.16%;
+    margin-left: 15.625%;
+    text-align: center;
+    justify-content: center;
+  
+  }
+  .textannouncement{
+    text-align:center;
+    font-size: 20px;
+    margin-top: 2.5%;
+    margin-left:15.625%;
+  }
+  .back{
+    width:12.5%;
+    margin-left:15.625%;
+  }
+  .tablestyle{
+    margin: auto;
+    table-layout: auto;
+  
+  }
+}
+@media only screen and (min-width:1200) {
+  .bg_an {
+    background-color: rgba(255, 253, 253, 0.8);
+    background-image: url('../image/backglogin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+  }
+  
+  .container1{
+    min-width: 1200px;
+    margin: auto
+  }
+  .div1{
+  
+    width: 79.16%;
+    margin-left: 15.625%;
+    text-align: center;
+    justify-content: center;
+  
+  }
+  .textannouncement{
+    text-align:center;
+    font-size: 20px;
+    margin-top: 2.5%;
+    margin-left:15.625%;
+  }
+  .back{
+    width:12.5%;
+    margin-left:15.625%;
+  }
+  .tablestyle{
+    margin: auto;
+    table-layout: auto;
+  
+  }}

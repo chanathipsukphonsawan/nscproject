@@ -45,8 +45,8 @@ const Login = () => {
 
   return (
 
-  
-    <div className="box">
+    <div className="body" >
+    <div className="box" >
       <div className="head">
         <div className="top">
           <div className="image">
@@ -92,6 +92,7 @@ const Login = () => {
           <label><a href="#">Forgot password?</a></label>
         </div>
       </div>
+    </div>
     </div>
     </div>
     
