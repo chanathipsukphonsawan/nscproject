@@ -11,7 +11,7 @@ const Announcementpage =()=>{
       
         
         <div className='bg_an'>
-          <Button onClick={back} className='back'>back</Button>
+          <Button onClick={back} className="BackButton">กลับไปยังหน้าหลัก</Button>
           <div className='container1'>
             
               

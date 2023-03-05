@@ -35,8 +35,21 @@ table tr td {
 .back{
   width:12.5%;
   margin-left:15.625%;
+}
 
-
+.BackButton{
+    background-color: white;
+    color: #0a1a70;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 18px;
+    width: 10%;
+    height: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 1;
 }
 .tablestyle{
   margin: auto;

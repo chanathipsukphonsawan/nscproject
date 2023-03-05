@@ -9,7 +9,7 @@ const Announcementpage2 = () => {
     navigate('/')}
     return(
     <div className='bg_an'>
-      <Button onClick={back}>back</Button>
+      <Button className="BackButton" onClick={back}>กลับไปยังหน้าหลัก</Button>
       <div className='container1'></div>
         
         <div className='container1'>
