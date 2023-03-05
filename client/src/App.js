@@ -8,6 +8,9 @@ import Publicpage from "./page/publicpage";
 import Announcement1page from "./page/Announcement1page"
 import Announcement2page from "./page/Announcement2page"
 import Certificatepage from "./page/certificatepage"
+import Details from "./page/details"
+import Pdfpage from "./page/pdfpage"
+
 const containerStyle = {
     position: 'fixed',
     top: '20px',
@@ -26,9 +29,11 @@ function App() {
                 <Route path="/" element={<Publicpage/>}/>
                 <Route path="/Announcement1" element={<Announcement1page/>}/>
                 <Route path="/Announcement2" element={<Announcement2page/>}/>
+                <Route path="/details" element={<Details/>}/>
                 <Route path="/login" element={<Login/>} />
                 <Route path="/home" element={<Home/>} />
                 <Route path="/certificate" element={<Certificatepage/>} />
+                <Route path="/pdffile" element={<Pdfpage/>} />
             </Routes>
             <ToastContainer style={containerStyle}/>
             </BrowserRouter>

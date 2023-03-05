@@ -11,7 +11,7 @@ const Announcementpage2 = () => {
     <div className='bg_an'>
       <Button onClick={back}>back</Button>
       <div className='container1'></div>
-        
+
         <div className='container1'>
         <tr>
           <td>
