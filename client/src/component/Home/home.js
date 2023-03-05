@@ -48,7 +48,7 @@ const Home = () => {
         ))}
       </div>
       <Button onClick={dowloadpicture}>ดาวน์โหลดใบประกาศนียบัตร</Button>
-      <Button onClick={dowloadpdf}>ดาวน์โหลดเอกสารรับทุน</Button>
+      <Button onClick={dowloadpdf} style={{marginLeft:'1%',marginTop:'37%'}}>ดาวน์โหลดเอกสารรับทุน</Button>
     </div>
   );
 }

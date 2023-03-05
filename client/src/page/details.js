@@ -10,94 +10,94 @@ const Details =()=>{
 
     }
     return(
-        <div>
+        <div className='bg'>
             <Button onClick={back}> Back</Button>
-            <table style={{ margin: 'auto',tableLayout:'auto' }}>
-            
+            <table className='tablestyle'>
+            <h1>รายละเอียดการสมัครการแข่งขัน NSC ครั้งที่ 24</h1>
             <tr>
                 <td style={{ border: '1px solid black', padding: '10px' }}>
                     <table style={{ margin:'0',tableLayout:'auto'}} >
                     <h1 style={{ textAlign: 'left',marginTop:'90px'}}>หัวข้อการแข่งขัน </h1>
                         <tr>
-                            <th style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นิสิตและนักศึกษา</th>
-                            <th style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>นักเรียน</th>
-                            <th style={{ border: '1px solid black', padding: '10px' }} className='tablecolor'>หมวดการแข่งขัน</th>
+                            <th >นิสิตและนักศึกษา</th>
+                            <th >นักเรียน</th>
+                            <th >หมวดการแข่งขัน</th>
                         </tr>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>11</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>21</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
+                            <td>11</td>
+                            <td>21</td>
+                            <td>โปรแกรมเพื่อการศึกษาและส่งเสริมการเรียนรู้</td>
                         </tr>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>12</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>22</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>โปรแกรมเพื่อบริหารการเปลี่ยนแปลงสภาพภูมิอากาศและสิ่งแวดล้อม</td>
+                            <td>12</td>
+                            <td>22</td>
+                            <td>โปรแกรมเพื่อบริหารการเปลี่ยนแปลงสภาพภูมิอากาศและสิ่งแวดล้อม</td>
                         </tr>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>13</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>23</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>โปรแกรมเพื่อช่วยคนพิการและผู้สูงอายุ</td>
+                            <td>13</td>
+                            <td>23</td>
+                            <td>โปรแกรมเพื่อช่วยคนพิการและผู้สูงอายุ</td>
                         </tr>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>14</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>24</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19และโรคติดเชื้ออุบัติใหม่</td>
+                            <td>14</td>
+                            <td>24</td>
+                            <td>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19และโรคติดเชื้ออุบัติใหม่</td>
                         </tr>
 
                     </table>
                     <table style={{ margin: 'auto',tableLayout:'auto' }}>
                     <h1 style={{ textAlign: 'left',marginTop:'90px'}}>กำหนดแข่งขัน</h1>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>รับข้อเสนอโครงการ</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>16 สิงหาคม - 30 กันยายน 2564 (วันสุดท้ายระบบปิดภายในเวลา 17:00 น.)</td>
+                            <td>รับข้อเสนอโครงการ</td>
+                            <td>16 สิงหาคม - 30 กันยายน 2564 (วันสุดท้ายระบบปิดภายในเวลา 17:00 น.)</td>
                         </tr>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>ตรวจผลงานรอบข้อเสนอโครงการ</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>4 - 15 ตุลาคม 2564</td>
+                            <td>ตรวจผลงานรอบข้อเสนอโครงการ</td>
+                            <td>4 - 15 ตุลาคม 2564</td>
                         </tr>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>ประกาศผลรอบข้อเสนอโครงการ</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>18 ตุลาคม 2564</td>
+                            <td >ประกาศผลรอบข้อเสนอโครงการ</td>
+                            <td>18 ตุลาคม 2564</td>
                         </tr>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>ส่งมอบผลงานรอบนำเสนอผลงาน</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>31 มกราคม 2565 (ระบบปิดภายในเวลา 17:00 น.)</td>
+                            <td >ส่งมอบผลงานรอบนำเสนอผลงาน</td>
+                            <td >31 มกราคม 2565 (ระบบปิดภายในเวลา 17:00 น.)</td>
                         </tr>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>ตรวจผลงานรอบนำเสนอผลงาน</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>3 - 14 กุมภาพันธ์ 2565</td>
+                            <td >ตรวจผลงานรอบนำเสนอผลงาน</td>
+                            <td>3 - 14 กุมภาพันธ์ 2565</td>
                         </tr>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>ประกาศผลโครงการที่ได้รับทุนสนับสนุนและโครงการผ่านเข้ารอบชิงชนะเลิศ</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>17 กุมภาพันธ์ 2565</td>
+                            <td>ประกาศผลโครงการที่ได้รับทุนสนับสนุนและโครงการผ่านเข้ารอบชิงชนะเลิศ</td>
+                            <td>17 กุมภาพันธ์ 2565</td>
                         </tr>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>รอบชิงชนะเลิศ</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'> มีนาคม 2565</td>
+                            <td>รอบชิงชนะเลิศ</td>
+                            <td> มีนาคม 2565</td>
                         </tr>
                     </table>
                     <table style={{ margin: '0',tableLayout:'auto' }}>
                     <h1 style={{ textAlign: 'left',marginTop:'90px'}}>กำหนดการรับสมัคร</h1>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>กำหนดการส่งรายงานฉบับสมบูรณ์เข้าระบบ
+                            <td>กำหนดการส่งรายงานฉบับสมบูรณ์เข้าระบบ
                             GENA http://nsc.siit.tu.ac.th/GENA2/login.php</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>ภายในวันที่ 31 มกราคม 2565 ไม่เกิน 17.00 น.</td>
+                            <td>ภายในวันที่ 31 มกราคม 2565 ไม่เกิน 17.00 น.</td>
                         </tr>
                         <tr>
-                            <th style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>กำหนดการนำเสนอผลงานแบบออนไลน์ต่อคณะกรรมการพิจารณาผลงาน</th>
-                            <th style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'> </th>
+                            <th>กำหนดการนำเสนอผลงานแบบออนไลน์ต่อคณะกรรมการพิจารณาผลงาน</th>
+                            <th> </th>
                         </tr>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>ศูนย์ประสานงานภูมิภาค ภาคใต้</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>วันที่ 9 กุมภาพันธ์ 2565</td>
+                            <td >ศูนย์ประสานงานภูมิภาค ภาคใต้</td>
+                            <td>วันที่ 9 กุมภาพันธ์ 2565</td>
                         </tr>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>ประกาศรายชื่อโครงการรับทุนรอบนำเสนอผลงานและโครงการที่ผ่านเข้ารอบชิงชนะเลิศ</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>วันที่ 17 กุมภาพันธ์ 2565</td>
+                            <td >ประกาศรายชื่อโครงการรับทุนรอบนำเสนอผลงานและโครงการที่ผ่านเข้ารอบชิงชนะเลิศ</td>
+                            <td>วันที่ 17 กุมภาพันธ์ 2565</td>
                         </tr>
                         <tr>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>การเเข่งขันรอบชิงชนะเลิศ</td>
-                            <td style={{ border: '1px solid black', padding: '10px' }}className='tablecolor'>รอยืนยัน</td>
+                            <td>การเเข่งขันรอบชิงชนะเลิศ</td>
+                            <td>รอยืนยัน</td>
                         </tr>
                     </table>
                     
