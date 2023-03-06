@@ -24,7 +24,7 @@ const Loginbar =() =>{
     return <bar>
         {isLoggedIn ?(
             <Box>
-                <AppBar position="static" style={{padding:"20", background:"#2E3B55", maxHeight:"200vh"}}>
+                <AppBar position="absolute" style={{padding:"20", background:"#2E3B55", maxHeight:"200vh"}}>
                     <Card
                         raised
                         sx={{
@@ -36,8 +36,8 @@ const Loginbar =() =>{
                             <div className="image-container">
                                 <img className="potrait" src={require=(Logo)} align-item="left" alt="Logo"/>
                                     <Typography textAlign={"left"} marginLeft={"100px"} marginBottom={"-90px"} 
-                                    marginTop={"-95px"} variant="h6" component="div" fontFamily={"Sukhumvit Set"} 
-                                    sx={{ flexGrow: 1 }}>
+                                    marginTop={"-100px"} variant="h6" component="div" fontFamily={"Sukhumvit Set"} 
+                                    fontSize={"24px"} sx={{ flexGrow: 1 }}>
                                         <p>NSC Southern Thailand 2022 <br/>ศูนย์ประสานงานโครงการ NSC ภาคใต้</p>
                                     </Typography>
                                     <div className="button-container">
@@ -52,7 +52,7 @@ const Loginbar =() =>{
             </Box>
         ):(
             <Box>
-                <AppBar position="static" style={{padding:"20", background:'#2E3B55', maxHeight:"200vh"}}>
+                <AppBar position="absolute" style={{padding:"20", background:'#2E3B55', maxHeight:"200vh"}}>
                     <Card
                         raised
                         sx={{
@@ -63,7 +63,9 @@ const Loginbar =() =>{
                         <div>
                             <div className="image-container">
                                 <img className="potrait" src={require=(Logo)} align-item= "left" alt="Logo"/>
-                                    <Typography textAlign={"left"} marginLeft={"100px"} marginBottom={"-90px"} marginTop={"-95px"} variant="h6" component="div" fontFamily={"Sukhumvit Set"} sx={{ flexGrow: 1 }}>
+                                    <Typography textAlign={"left"} marginLeft={"100px"} marginBottom={"-90px"} 
+                                    marginTop={"-100px"} variant="h6" component="div" fontFamily={"Sukhumvit Set"} 
+                                    fontSize={"24px"} sx={{ flexGrow: 1 }}>
                                         <p>NSC Southern Thailand 2022 <br/>ศูนย์ประสานงานโครงการ NSC ภาคใต้</p>
                                     </Typography>
                                     <div className="button-container">

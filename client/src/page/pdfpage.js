@@ -22,7 +22,7 @@ const Pdfpage = () => {
       <div className="certificatepic">
         <img src={require("../image/doc.png")} style={{width:'100%'}}/>
       </div>
-      <button onClick={handleDownload} className="buttomdownload">ดาวน์โหลดเอกสารรับทุน</button>
+      <button onClick={handleDownload} className="download-button">ดาวน์โหลดเอกสารรับทุน</button>
     </div>
   );
 }

@@ -39,7 +39,7 @@ const Certificatepage = () => {
       <div className="certificatepic">
         <img src={require("../image/certificate.jpg")} />
       </div>
-      <button onClick={handleDownload} className="buttomdownload">ดาวน์โหลดใบประกาศนียบัตร</button>
+      <button onClick={handleDownload} className="download-button">ดาวน์โหลดใบประกาศนียบัตร</button>
     </div>
   );
 }

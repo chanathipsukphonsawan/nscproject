@@ -11,7 +11,7 @@ const Details =()=>{
     }
     return(
         <div className='bg'>
-            <Button onClick={back}> Back</Button>
+            <Button onClick={back} className="BackButton"> กลับไปสู่หน้าหลัก</Button>
             <table className='tablestyle'>
             <h1>รายละเอียดการสมัครการแข่งขัน NSC ครั้งที่ 24</h1>
             <tr>
@@ -103,13 +103,13 @@ const Details =()=>{
                     
                     
                     <h1 style={{ textAlign: 'left',marginTop:'90px'}}>คุณสมบัติผู้สมัคร</h1>
-                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'70px'}}>กำลังศึกษาอยู่ในสถาบันการศึกษาในประเทศไทย</h4>
+                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>กำลังศึกษาอยู่ในสถาบันการศึกษาในประเทศไทย</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>ระดับนักเรียน : ประถมศึกษา มัธยมศึกษา อาชีวศึกษา  หรือเทียบเท่า(ปวช.)</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>ระดับนิสิตและนักศึกษา : อาชีวศึกษา หรือเทียบเท่า (ปวส.) และ อุดมศึกษา (ไม่เกินปริญญาตรี)</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>สมาชิก จำนวน 1-3 คน (ชื่อไม่ซ้ำในทีมอื่น) และที่ปรึกษาโครงการ 1 คน สังกัดสถาบันการศึกษาเดียวกัน</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>ส่งผลงานเข้าแข่งขันได้ 1 ผลงานเท่านั้น</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>ผลงานที่เข้าร่วมการแข่งขัน ผ่านการรับรองจากที่ปรึกษาโครงการและหัวหน้าสถาบันการศึกษา</h4>
-                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>หากร่วมการแข่งขัน YSC 2022 แล้ว ไม่สามารถสมัคร  NSC 2022 ได้</h4>
+                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>หากร่วมการแข่งขัน YSC 2022 แล้ว จะไม่สามารถสมัครการแข่งขัน NSC 2022 ได้</h4>
                    
                     
 

@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {Container} from "reactstrap";
 import { ToastContainer } from "react-toastify";
-
+import axios from "axios";
 import Login from "./component/Login/login"
 import Home from "./component/Home/home";
 import Publicpage from "./page/publicpage";
@@ -10,6 +10,7 @@ import Announcement2page from "./page/Announcement2page"
 import Certificatepage from "./page/certificatepage"
 import Details from "./page/details"
 import Pdfpage from "./page/pdfpage"
+import React, { useState, useEffect } from "react";
 
 const containerStyle = {
     position: 'fixed',
@@ -22,6 +23,16 @@ const containerStyle = {
   };
 
 function App() {
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
+    const fetchData = async () => {
+        const result = await axios.get("http://localhost:1337/");
+        setData(result.data);
+    };
+
+    fetchData();
+  }, []);
     return (
         <Container>
             <BrowserRouter>
