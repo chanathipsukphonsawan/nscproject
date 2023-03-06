@@ -271,7 +271,7 @@ const Announcementpage2 = () => {
             </table>
           </td>
         </tr>
-    </div>
+      </div>
     </div>
     )
 };

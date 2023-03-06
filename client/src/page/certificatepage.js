@@ -34,8 +34,8 @@ const Certificatepage = () => {
   };
   return (
     <div className="bg_an">
+      <Button className="BackButton" onClick={back}>กลับไปยังหน้าหลัก</Button>
       <Loginbar />
-      <Button onClick={back}>back</Button>
       <div className="certificatepic">
         <img src={require("../image/certificate.jpg")} />
       </div>
