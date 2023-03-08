@@ -18,7 +18,7 @@ const Pdfpage = () => {
   return (
     <div className="bg_an">
       <Loginbar />
-      <Button onClick={back}>back</Button>
+      <Button className="BackButton" onClick={back}>กลับไปยังหน้าหลัก</Button>
       <div className="certificatepic">
         <img src={require("../image/doc.png")} style={{width:'100%'}}/>
       </div>
