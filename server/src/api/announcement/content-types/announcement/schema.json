@@ -15,19 +15,48 @@
     "title": {
       "type": "string"
     },
+    "project_code": {
+      "type": "string"
+    },
+    "educationlevel": {
+      "type": "string"
+    },
+    "institution": {
+      "type": "string"
+    },
+    "funded": {
+      "type": "boolean"
+    },
+    "FundedAndNominated": {
+      "type": "boolean"
+    },
+    "project_leader": {
+      "type": "text"
+    },
+    "projectDeveloper2": {
+      "type": "text"
+    },
+    "projectDeveloper3": {
+      "type": "text"
+    },
+    "advisor": {
+      "type": "text"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
     "user": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user",
       "mappedBy": "announcement"
-    },
-    "img": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
     }
   }
 }

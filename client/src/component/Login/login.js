@@ -28,10 +28,10 @@ const Login = () => {
         const { data } = await axios.post(url, user);
         if (data.jwt) {
           localStorage.setItem("jwt", data.jwt);
+          localStorage.setItem("userId", data.user.id);
           toast.success("Login successful", {
             hideProgressBar: true,
           })
-          
           setUser(initialUser);
           navigate("/home");
         }

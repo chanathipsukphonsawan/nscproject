@@ -16,12 +16,15 @@ const details = () => {
     <div className='bg'>
     <div  style={{textAlign: 'center', display:'contents', justifyContent: 'center',}}>
         <Loginbar/>
-        <table style={{ margin: 'auto',tableLayout:'auto' }}>
+        <table style={{ margin: 'auto',tableLayout:'auto' }} className='container1'>
             
             <tr>
                 <td>
-                    <h1 style={{fontSize: 30}}>ที่มาและความสําคัญ </h1>
-                    <tr style={{fontSize: 20, textAlign: 'left'}}>
+                    
+                    <tr style={{fontSize: 20, textAlign: 'left',marginTop:'10%'}}>
+
+                    <h1 style={{fontSize: 30,marginTop:'10%'}}>NSC - Southern Thailand Web เว็บศูนย์ประสานงานโครงการ NSC ภาคใต้ที่มาและความสําคัญ</h1>
+    
                         <p>
                             การแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทยหรือ NSC (National Software Contest) เป็นการจัดประกวดโครงการพัฒนาโปรแกรมสําหรับนักเรียน, นักศึกษา ในประเทศไทย โดยมีการคัดเลือกระดับภูมิภาค และการแข่งขันรอบสุดท้ายในระดับประเทศปี 2022 นี้จัดเป็นครั้งที่ 24
                         </p>
