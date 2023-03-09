@@ -40,14 +40,14 @@ const Home = (): JSX.Element => {
   return (
     <div>
       <div>
-      <Loginbar />
+        <Loginbar />
       </div>
       <div style={{marginTop:'250px'}}>
         <h2 style={{textAlign:'center'}}>{userData?.announcement.title}</h2>
         <p style={{textAlign:'center'}}>{userData?.announcement.project_code} </p>
       
-      {userData?.announcement.funded && <Button onClick={dowloadpdf} >ดาวน์โหลดเอกสารรับทุน</Button> } 
-      <Button onClick={dowloadpicture}>ดาวน์โหลดใบประกาศนียบัตร</Button>
+      {userData?.announcement.funded && <Button variant="contained" onClick={dowloadpdf} >ดาวน์โหลดเอกสารรับทุน</Button> } 
+      <Button variant="contained" onClick={dowloadpicture}>ดาวน์โหลดใบประกาศนียบัตร</Button>
       </div>
     </div>
   );
