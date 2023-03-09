@@ -1,3 +1,11 @@
+.bg {
+  background-color: rgba(255, 253, 253, 0.8);
+  background-image: url('../image/backgnsc.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: auto;
+}
 .bg_an {
   background-color: rgba(255, 253, 253, 0.8);
   background-image: url('../image/backglogin.png');
@@ -12,6 +20,7 @@ table tr td {
   border: 1px solid black;
   padding: 10px;
   background-color: rgba(202, 235, 255, 0.5);
+  
 }
 .container1{
   max-width: 1200px;
@@ -44,8 +53,7 @@ table tr td {
     margin: 0px;
     padding: 15px;
     border-radius: 18px;
-    width: 10%;
-    height: 10%;
+    width: 12.5%;
     font-size: 25px;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -53,6 +61,7 @@ table tr td {
 }
 .tablestyle{
   margin: auto;
+  border-collapse: collapse;
   table-layout: auto;
 
 }
@@ -90,6 +99,19 @@ table tr td {
     width:12.5%;
     margin-left:15.625%;
   }
+  .BackButton{
+    background-color: white;
+    color: #0a1a70;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 18px;
+    width: 12.5%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 1;
+}
   .tablestyle{
     margin: auto;
     table-layout: auto;
@@ -129,6 +151,19 @@ table tr td {
     width:12.5%;
     margin-left:15.625%;
   }
+  .BackButton{
+    background-color: white;
+    color: #0a1a70;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 18px;
+    width: 12.5%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 1;
+}
   .tablestyle{
     margin: auto;
     table-layout: auto;
@@ -169,6 +204,19 @@ table tr td {
     width:12.5%;
     margin-left:15.625%;
   }
+  .BackButton{
+    background-color: white;
+    color: #0a1a70;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 18px;
+    width: 12.5%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 1;
+}
   .tablestyle{
     margin: auto;
     table-layout: auto;
@@ -208,6 +256,19 @@ table tr td {
     width:12.5%;
     margin-left:15.625%;
   }
+  .BackButton{
+    background-color: white;
+    color: #0a1a70;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 18px;
+    width: 12.5%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 1;
+}
   .tablestyle{
     margin: auto;
     table-layout: auto;
@@ -247,6 +308,19 @@ table tr td {
     width:12.5%;
     margin-left:15.625%;
   }
+  .BackButton{
+    background-color: white;
+    color: #0a1a70;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 18px;
+    width: 12.5%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 1;
+}
   .tablestyle{
     margin: auto;
     table-layout: auto;

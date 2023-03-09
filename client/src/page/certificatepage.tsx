@@ -4,6 +4,7 @@ import { Button } from 'reactstrap';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import UserModel from "../model/usermodel";
+import { Paper  } from "@mui/material";
 
 const Certificatepage = () => {
   const [imageURL, setImageURL] = useState<string>('');
@@ -45,12 +46,17 @@ const Certificatepage = () => {
   };
   
   return (
-    <div className="bg_an">
+    <div>
       <Loginbar />
+      <div className="container1">
+      <Paper elevation={24} sx={{ padding: '20px', marginLeft:'100px', marginTop: '50px', width: '1300px', minHeight: '800px' }} className='bg'>
+
       <div className="certificatepic">
         <img src={"http://localhost:1337" + imageURL} alt="Certificate" />
       </div>
       <button onClick={handleDownload} className="download-button">ดาวน์โหลดใบประกาศนียบัตร</button>
+      </Paper>
+      </div>
     </div>
   );
 }

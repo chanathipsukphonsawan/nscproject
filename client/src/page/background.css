@@ -1,21 +1,4 @@
-.body{
-  background-image: url('../image/backglogin.png');
-  background-size: cover;
-  background-attachment: fixed;
- 
 
-}
-
-
-.bg {
-
-  background-image: url('../image/backgnsc.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  
-  
-}
 .certificatepic{
   max-width: 40%;
   margin-top:5%;

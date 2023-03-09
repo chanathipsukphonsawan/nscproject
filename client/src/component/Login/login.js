@@ -2,8 +2,9 @@ import { Button, Form, FormGroup, Label, Input, Toast } from 'reactstrap';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from "axios";
-import { toast } from "react-toastify";
+import swal from 'sweetalert';
 import './login.css'
+
 
 
 
@@ -29,7 +30,7 @@ const Login = () => {
         if (data.jwt) {
           localStorage.setItem("jwt", data.jwt);
           localStorage.setItem("userId", data.user.id);
-          toast.success("Login successful", {
+          swal("Login successful", {
             hideProgressBar: true,
           })
           setUser(initialUser);
@@ -37,7 +38,7 @@ const Login = () => {
         }
       }
     } catch (error) {
-      toast.error(error.message, {
+      swal(error.message, {
         hideProgressBar: true,
       });
     }
@@ -45,7 +46,7 @@ const Login = () => {
 
   return (
 
-    <div className="body" >
+    <div className="bg_an" >
     <div className="box" >
       <div className="head">
         <div className="top">
@@ -90,6 +91,7 @@ const Login = () => {
         </div>
         <div>
           <label><a href="#">Forgot password?</a></label>
+          <h1 > </h1>
         </div>
       </div>
     </div>
@@ -101,5 +103,3 @@ const Login = () => {
 };
 
 export default Login;
-
-

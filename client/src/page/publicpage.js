@@ -14,9 +14,10 @@ const details = () => {
     navigate('/Details')}
     return(
     <div className='bg'>
-    <div  style={{textAlign: 'center', display:'contents', justifyContent: 'center',}}>
+    <div className='container1'>
+    <div  style={{textAlign:'left', display:'contents', justifyContent: 'center',}} className='div1'>
         <Loginbar/>
-        <table style={{ margin: 'auto',tableLayout:'auto' }} className='container1'>
+        <table style={{ margin: 'auto',tableLayout:'auto' }}>
             
             <tr>
                 <td>
@@ -35,22 +36,24 @@ const details = () => {
                             ในเขตภาคใต้ แต่ละปีที่ผ่านมามีโครงการส่งเข้าร่วมทั้งระดับนักเรียน และนักศึกษาประมาณกว่าสองร้อยโครงการ และผ่านรอบ 1 ประมาณ 100 กว่าโครงการ ซึ่งจะเข้าร่วมแข่งขันในรอบ 2 (ระดับภูมิภาค) โดยนําโครงการมานําเสนอให้แก่กรรมการ และตัดสินการแข่งขันรอบ 2 ที่ภาควิชาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์ ม.อ. ทุกโครงการที่เข้าร่วมแข่งขันต้องเข้าไปลงทะเบียนที่เว็บของส่วนกลาง (https://nsc.siit.tu.ac.th/GENA/login.php) และมีรหัสโครงการเป็นบัญชีผู้ใช้และมีการส่งงานของแต่ละรอบที่เว็บส่วนกลางทั้งหมด
                         </p>
                     </tr>
+                   
 
                     <img src={require("../image/ann.png")} style={{width:'5%',marginRight:'3%',marginTop:'3%'}}/>
-                        <a onClick={details} href="#" className='announcement-button' >  รายละเอียดการสมัคร NSC ครั้งที่ 24</a>
+                        <a onClick={details} href="#" className='announcement-button'  >  รายละเอียดการสมัคร NSC ครั้งที่ 24</a>
                     <h1> </h1>
                     <img src={require("../image/ann.png")} style={{width:'5%',marginRight:'3%',marginTop:'3%'}}/>
                         <a onClick={Announcement} href="#" className='announcement-button' >ประกาศผลรอบข้อเสนอโครงการ รอบที่ 1</a>
                     <h1>  </h1>
                     <img src={require("../image/ann.png")} style={{width:'5%',marginRight:'3%',marginTop:'3%'}}/>
                         <a onClick={Announcement2} href="#" className='announcement-button' >ประกาศผลรอบข้อเสนอโครงการ รอบที่ 2</a>
-                    
+        
                    
                     
                 </td>
                
             </tr>
         </table>
+        </div>
                 </div>
                 </div>
         

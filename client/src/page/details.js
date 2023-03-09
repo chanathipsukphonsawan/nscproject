@@ -12,6 +12,9 @@ const Details =()=>{
     return(
         <div className='bg'>
             <Button onClick={back} className="BackButton"> กลับไปสู่หน้าหลัก</Button>
+            <div className='container1'>
+            <div className='div1'>
+
             <table className='tablestyle'>
             <h1>รายละเอียดการสมัครการแข่งขัน NSC ครั้งที่ 24</h1>
             <tr>
@@ -127,6 +130,9 @@ const Details =()=>{
             </tr>
         </table>
         </div>
+        </div>
+        </div>
+        
        
     )
 

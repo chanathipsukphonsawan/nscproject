@@ -5,6 +5,7 @@ export default interface UserModel {
         id: number
         title: string
         project_code: string
+        category_project: string
         educationlevel: string
         institution: string
         funded: boolean
