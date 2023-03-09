@@ -14,7 +14,7 @@ const Publicpage =()=>{
 const details = () => {
     navigate('/Details')}
     return(
-    <div style={{backgroundColor:'#88F3E4 '}}>
+    <div style={{backgroundColor:'#88F3E4',height:'1000px'}}>
     <div className='container1'>
     <div  style={{textAlign:'left', display:'contents', justifyContent: 'center',}} className='div1'>
         <Loginbar/>

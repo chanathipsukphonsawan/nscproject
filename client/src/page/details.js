@@ -14,9 +14,9 @@ const Details =()=>{
         <div className='bg_an'>
             <Button onClick={back} className="BackButton"> กลับไปสู่หน้าหลัก</Button>
             <div className='container1'>
-            <div className='div1'>
-            <Paper elevation={24} sx={{ padding: '20px', marginLeft:'-40px', marginTop: '50px', width: '1000px', minHeight: '800px' }} className='bg'>
             
+            <Paper elevation={24} sx={{ padding: '20px', marginLeft:'-40px', marginTop: '50px', width: '1000px', minHeight: '800px' }} className='bg'>
+            <div className='div1'>
             <h1>รายละเอียดการสมัครการแข่งขัน NSC ครั้งที่ 24</h1>
             
                 
@@ -128,9 +128,9 @@ const Details =()=>{
             
                 
                
-         
+                    </div>
         </Paper>
-        </div>
+        
         </div>
         </div>
         
