@@ -46,15 +46,16 @@ const Certificatepage = () => {
   };
   
   return (
-    <div>
+    <div style={{backgroundColor:'#88F3E4 '}}>
       <Loginbar />
       <div className="container1">
-      <Paper elevation={24} sx={{ padding: '20px', marginLeft:'100px', marginTop: '50px', width: '1300px', minHeight: '800px' }} className='bg'>
+      <Paper elevation={24} sx={{ padding: '20px', marginLeft:'50px', marginTop: '50px', width: '1300px', minHeight: '700px' }} className='bg'>
 
       <div className="certificatepic">
+        <h1 style={{textAlign:'center',marginBottom:'40px',color:'#368BD1'}}>ตัวอย่างใบประกาศนียบัตร</h1>
         <img src={"http://localhost:1337" + imageURL} alt="Certificate" />
       </div>
-      <button onClick={handleDownload} className="download-button">ดาวน์โหลดใบประกาศนียบัตร</button>
+      <button onClick={handleDownload} className="download-button" style={{marginRight:'0',marginTop:'25px'}}>ดาวน์โหลดใบประกาศนียบัตร</button>
       </Paper>
       </div>
     </div>

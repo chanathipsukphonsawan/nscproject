@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { Button } from 'reactstrap';
 import './AnnouncementBackground.css';
+import { Paper  } from "@mui/material";
 
 const Details =()=>{
     const navigate =useNavigate();
@@ -10,15 +11,15 @@ const Details =()=>{
 
     }
     return(
-        <div className='bg'>
+        <div className='bg_an'>
             <Button onClick={back} className="BackButton"> กลับไปสู่หน้าหลัก</Button>
             <div className='container1'>
             <div className='div1'>
-
-            <table className='tablestyle'>
+            <Paper elevation={24} sx={{ padding: '20px', marginLeft:'-40px', marginTop: '50px', width: '1000px', minHeight: '800px' }} className='bg'>
+            
             <h1>รายละเอียดการสมัครการแข่งขัน NSC ครั้งที่ 24</h1>
-            <tr>
-                <td style={{ border: '1px solid black', padding: '10px' }}>
+            
+                
                     <table style={{ margin:'0',tableLayout:'auto'}} >
                     <h1 style={{ textAlign: 'left',marginTop:'90px'}}>หัวข้อการแข่งขัน </h1>
                         <tr>
@@ -124,11 +125,11 @@ const Details =()=>{
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>Facebook: NSC Thailand Southern Region</h4>
                     
                     
-                </td>
+            
                 
                
-            </tr>
-        </table>
+         
+        </Paper>
         </div>
         </div>
         </div>

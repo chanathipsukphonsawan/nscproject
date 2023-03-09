@@ -40,13 +40,13 @@ const Home = (): JSX.Element => {
 
   return (
 
-  <div>
+  <div style={{backgroundColor:'#88F3E4 '}}>
     <Loginbar/>
   <div className="container1">
   <Paper elevation={24} sx={{ padding: '20px', marginLeft:'100px', marginTop: '50px', width: '2500px', minHeight: '500px' }} className='bg'>
-          <h2 style={{textAlign:'center'}}>รายละเอียดผู้ผ่านเข้ารอบที่2</h2>
+          <h1 style={{textAlign:'center',marginBottom:'40px',color:'blue'}}>รายละเอียดผู้ผ่านเข้ารอบที่2</h1>
            <table style={{margin:'auto'}} className='tablestyle'>
-            <tr>
+            <tr >
               <th> รหัสโครงการ </th>
               <td> {userData?.announcement.project_code}</td>
             </tr>

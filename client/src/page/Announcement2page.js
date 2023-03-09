@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { Button } from 'reactstrap';
 import './AnnouncementBackground.css';
+import { Paper  } from "@mui/material";
 
 const Announcementpage2 = () => {
     const navigate = useNavigate();
@@ -10,8 +11,8 @@ const Announcementpage2 = () => {
     return(
     <div className='bg_an'>
       <Button className="BackButton" onClick={back}>กลับไปยังหน้าหลัก</Button>
+      <Paper elevation={24} sx={{ padding: '20px', marginLeft:'250px', marginTop: '50px', width: '1000px', minHeight: '800px' }} className='bg'>
       <div className='container1'></div>
-
         <div className='container1'>
         <tr>
           <td>
@@ -272,6 +273,7 @@ const Announcementpage2 = () => {
           </td>
         </tr>
       </div>
+      </Paper>
     </div>
     )
 };

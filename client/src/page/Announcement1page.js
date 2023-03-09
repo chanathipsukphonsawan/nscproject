@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { Button } from 'reactstrap';
 import './AnnouncementBackground.css';
+import { Paper  } from "@mui/material";
 
 const Announcementpage =()=>{
     const navigate = useNavigate();
@@ -14,7 +15,7 @@ const Announcementpage =()=>{
           <Button onClick={back} className="BackButton">กลับไปยังหน้าหลัก</Button>
           <div className='container1'>
             
-              
+          <Paper elevation={24} sx={{ padding: '20px', marginLeft:'100px', marginTop: '50px', width: '1000px', minHeight: '800px' }} className='bg'> 
               <tr>
                 <td>
                   <table className='tablestyle'>
@@ -537,7 +538,7 @@ const Announcementpage =()=>{
                   </table>
                 </td>
               </tr>
-              
+             </Paper> 
           </div>
           </div>
     

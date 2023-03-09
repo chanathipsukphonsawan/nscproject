@@ -17,14 +17,15 @@ const Pdfpage = () => {
     navigate('/home');
   };
   return (
-    <div className="bg_an">
+    <div style={{backgroundColor:'#88F3E4 '}}>
       <Loginbar />
       <div className="container1">
       <Paper elevation={24} sx={{ padding: '20px', marginLeft:'100px', marginTop: '50px', width: '1300px', minHeight: '800px' }} className='bg'>
       <div className="certificatepic">
-        <img src={require("../image/doc.png")} style={{width:'100%'}}/>
+      <h1 style={{textAlign:'center',marginBottom:'40px',color:'#368BD1'}}>ตัวอย่างเอกสารรับทุน</h1>
+        <img src={require("../image/doc.png")} style={{maxWidth:'600px',marginLeft:'-120px'}}/>
       </div>
-      <button onClick={handleDownload} className="download-button">ดาวน์โหลดเอกสารรับทุน</button>
+      <button onClick={handleDownload} className="download-button" style={{marginTop:'20px'}}>ดาวน์โหลดเอกสารรับทุน</button>
       </Paper>
       </div>
     </div>
