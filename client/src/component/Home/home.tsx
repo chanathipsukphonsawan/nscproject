@@ -91,8 +91,8 @@ const Home = (): JSX.Element => {
               <td> {userData?.announcement.FundedAndNominated && <p style={{color:'green'}}>คุณได้รับทุนและเข้าชิง</p>}</td>
             </tr>
             <div style={{marginTop:'70px'}}>
-     {userData?.announcement.funded && <Button variant="contained" onClick={dowloadpdf}>ดาวน์โหลดเอกสารรับทุน</Button> }
-    {userData?.announcement.FundedAndNominated && <Button variant="contained" onClick={dowloadpicture} style={{marginLeft:'20px'}}  >ดาวน์โหลดใบประกาศนียบัตร</Button> }
+     {userData?.announcement.funded && <Button variant="contained" color="primary" onClick={dowloadpdf}>ดาวน์โหลดเอกสารรับทุน</Button> }
+    {userData?.announcement.FundedAndNominated && <Button variant="contained" color="primary" onClick={dowloadpicture} style={{marginLeft:'20px'}}  >ดาวน์โหลดใบประกาศนียบัตร</Button> }
 
     </div>
            </table>
