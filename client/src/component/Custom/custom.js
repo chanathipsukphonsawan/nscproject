@@ -13,7 +13,7 @@ const Loginbar =() =>{
     useEffect(()=>{
         const jwt =localStorage.getItem ("jwt")
         setIsLoggedIn(jwt? true : false)
-    },[]);
+    },[isLoggedIn]);
 
     const handdletLogout = () => {
         localStorage.removeItem("jwt")
@@ -41,7 +41,7 @@ const Loginbar =() =>{
                                         <p>NSC Southern Thailand 2022 <br/>ศูนย์ประสานงานโครงการ NSC ภาคใต้</p>
                                     </Typography>
                                     <div className="button-container">
-                                        <Button className="logout-button" color="inherit" marginLeft={"100px"} justify-items onClick={handdletLogout}>
+                                        <Button className="logout-button" color="inherit"  onClick={handdletLogout}>
                                             ออกจากระบบ
                                         </Button>
                                     </div>

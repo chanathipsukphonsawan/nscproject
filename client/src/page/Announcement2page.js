@@ -11,9 +11,10 @@ const Announcementpage2 = () => {
     return(
     <div className='bg_an'>
       <Button className="BackButton" onClick={back}>กลับไปยังหน้าหลัก</Button>
-      <Paper elevation={24} sx={{ padding: '20px', marginLeft:'250px', marginTop: '50px', width: '1000px', minHeight: '800px' }} className='bg'>
-      <div className='container1'></div>
-        <div className='container1'>
+      <div className='container1'>
+      <Paper elevation={24} sx={{ padding: '20px', marginLeft:'100px', marginTop: '50px', width: '1000px', minHeight: '800px' }} className='bg'>
+      
+        
         <tr>
           <td>
             <table className='tablestyle'>
@@ -272,8 +273,9 @@ const Announcementpage2 = () => {
             </table>
           </td>
         </tr>
-      </div>
+     
       </Paper>
+      </div>
     </div>
     )
 };

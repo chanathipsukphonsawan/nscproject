@@ -43,7 +43,8 @@ const Home = (): JSX.Element => {
   <div style={{backgroundColor:'#88F3E4 '}}>
     <Loginbar/>
   <div className="container1">
-  <Paper elevation={24} sx={{ padding: '20px', marginLeft:'100px', marginTop: '50px', width: '2500px', minHeight: '500px' }} className='bg'>
+  <Paper elevation={24} className='paper'>
+    <div className="bg">
           <h1 style={{textAlign:'center',marginBottom:'40px',color:'blue'}}>รายละเอียดผู้ผ่านเข้ารอบที่2</h1>
            <table style={{margin:'auto'}} className='tablestyle'>
             <tr >
@@ -96,6 +97,7 @@ const Home = (): JSX.Element => {
 
     </div>
            </table>
+           </div>
 
         </Paper>
   </div>

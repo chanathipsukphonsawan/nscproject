@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from "axios";
 import swal from 'sweetalert';
 import './login.css'
+import { Paper } from '@mui/material';
 
 
 
@@ -46,7 +47,9 @@ const Login = () => {
 
   return (
 
-    <div className="bg_an" >
+    <div style={{backgroundColor:'#88F3E4 '}} >
+    <div className='container1'>
+      <Paper elevation={24} sx={{ marginLeft:'100px', marginTop: '0px', width: '1000px', minHeight: '800px' }} className='bg'> 
     <div className="box" >
       <div className="head">
         <div className="top">
@@ -95,6 +98,8 @@ const Login = () => {
         </div>
       </div>
     </div>
+    </div>
+    </Paper>
     </div>
     </div>
     

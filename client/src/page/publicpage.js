@@ -18,8 +18,8 @@ const details = () => {
     <div className='container1'>
     <div  style={{textAlign:'left', display:'contents', justifyContent: 'center',}} className='div1'>
         <Loginbar/>
-        <Paper elevation={24} sx={{ padding: '20px', marginLeft:'80px', marginTop: '50px', width: '1300px', minHeight: '800px' }} className='bg'>
-        
+        <Paper elevation={24} className='paper'>
+        <div className='bg'>
 
                     <h1 style={{fontSize: 30,marginTop:'10%',color:'blue'}}>NSC - Southern Thailand ศูนย์ประสานงานโครงการ NSC ภาคใต้ ที่มาและความสําคัญ</h1>
     
@@ -42,6 +42,7 @@ const details = () => {
                     <h1>  </h1>
                     <img src={require("../image/ann.png")} style={{width:'5%',marginRight:'3%',marginTop:'3%'}}/>
                         <a onClick={Announcement2} href="#" className='announcement-button' >ประกาศผลรอบข้อเสนอโครงการ รอบที่ 2</a>
+                </div>
         
                 
         </Paper>
