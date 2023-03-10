@@ -19,7 +19,7 @@ const Announcementpage2 = () => {
           <td>
             <table className='tablestyle'>
                 <h1 className='textannouncement'>การแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทย ครั้งที่ 24 (NSC 2022)</h1>
-                <h2 className='textannouncement'>รายชื่อโครงการที่ผ่านรับทุนรอบนำเสนอผลงาน ศูนย์ประสานงานภูมิภาค"ภาคใต้"</h2>
+                <h2 className='textannouncement'>รายชื่อโครงการที่ผ่านรับทุนรอบนำเสนอผลงาน ศูนย์ประสานงานภูมิภาค "ภาคใต้"</h2>
                 <div className='div1'>
                   <tr>
                     <th>ที่</th>

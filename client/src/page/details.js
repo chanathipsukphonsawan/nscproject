@@ -35,17 +35,17 @@ const Details =()=>{
                         <tr>
                             <td>12</td>
                             <td>22</td>
-                            <td>โปรแกรมเพื่อบริหารการเปลี่ยนแปลงสภาพภูมิอากาศและสิ่งแวดล้อม</td>
+                            <td>โปรแกรมเพื่อบริหารการเปลี่ยนแปลงสภาพภูมิอากาศ และสิ่งแวดล้อม</td>
                         </tr>
                         <tr>
                             <td>13</td>
                             <td>23</td>
-                            <td>โปรแกรมเพื่อช่วยคนพิการและผู้สูงอายุ</td>
+                            <td>โปรแกรมเพื่อช่วยคนพิการ และผู้สูงอายุ</td>
                         </tr>
                         <tr>
                             <td>14</td>
                             <td>24</td>
-                            <td>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19และโรคติดเชื้ออุบัติใหม่</td>
+                            <td>โปรแกรมเพื่อใช้ภายใต้สถานการณ์โควิค-19 และโรคติดเชื้ออุบัติใหม่</td>
                         </tr>
 
                     </table>
@@ -84,7 +84,7 @@ const Details =()=>{
                     <h1 style={{ textAlign: 'left',marginTop:'90px'}}>กำหนดการรับสมัคร</h1>
                         <tr>
                             <td>กำหนดการส่งรายงานฉบับสมบูรณ์เข้าระบบ
-                            GENA http://nsc.siit.tu.ac.th/GENA2/login.php</td>
+                            GENA <a href="http://nsc.siit.tu.ac.th/GENA2/login.php">http://nsc.siit.tu.ac.th/GENA2/login.php</a></td>
                             <td>ภายในวันที่ 31 มกราคม 2565 ไม่เกิน 17.00 น.</td>
                         </tr>
                         <tr>
@@ -96,7 +96,7 @@ const Details =()=>{
                             <td>วันที่ 9 กุมภาพันธ์ 2565</td>
                         </tr>
                         <tr>
-                            <td >ประกาศรายชื่อโครงการรับทุนรอบนำเสนอผลงานและโครงการที่ผ่านเข้ารอบชิงชนะเลิศ</td>
+                            <td >ประกาศรายชื่อโครงการรับทุนรอบนำเสนอผลงาน และโครงการที่ผ่านเข้ารอบชิงชนะเลิศ</td>
                             <td>วันที่ 17 กุมภาพันธ์ 2565</td>
                         </tr>
                         <tr>
@@ -109,20 +109,20 @@ const Details =()=>{
                     <h1 style={{ textAlign: 'left',marginTop:'90px'}}>คุณสมบัติผู้สมัคร</h1>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>กำลังศึกษาอยู่ในสถาบันการศึกษาในประเทศไทย</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>ระดับนักเรียน : ประถมศึกษา มัธยมศึกษา อาชีวศึกษา  หรือเทียบเท่า(ปวช.)</h4>
-                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>ระดับนิสิตและนักศึกษา : อาชีวศึกษา หรือเทียบเท่า (ปวส.) และ อุดมศึกษา (ไม่เกินปริญญาตรี)</h4>
+                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>ระดับนิสิตและนักศึกษา : อาชีวศึกษา หรือเทียบเท่า (ปวส.) และอุดมศึกษา (ไม่เกินปริญญาตรี)</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>สมาชิก จำนวน 1-3 คน (ชื่อไม่ซ้ำในทีมอื่น) และที่ปรึกษาโครงการ 1 คน สังกัดสถาบันการศึกษาเดียวกัน</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>ส่งผลงานเข้าแข่งขันได้ 1 ผลงานเท่านั้น</h4>
-                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>ผลงานที่เข้าร่วมการแข่งขัน ผ่านการรับรองจากที่ปรึกษาโครงการและหัวหน้าสถาบันการศึกษา</h4>
-                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>หากร่วมการแข่งขัน YSC 2022 แล้ว จะไม่สามารถสมัครการแข่งขัน NSC 2022 ได้</h4>
+                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>ผลงานที่เข้าร่วมการแข่งขัน ผ่านการรับรองจากที่ปรึกษาโครงการ และหัวหน้าสถาบันการศึกษา</h4>
+                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'10px'}}>หากร่วมการแข่งขัน YSC 2022 แล้วจะไม่สามารถสมัครการแข่งขัน NSC 2022 ได้</h4>
                    
                     
 
 
                     <h1 style={{ textAlign:'left',marginTop:'70px'}}>ติดต่อเรา</h1>
-                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>คณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์</h4>
-                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>โทรศัพท์ 074 287076</h4>
+                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}> <a href="https://web.facebook.com/ENGINEERINGPSU">คณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์</a>  </h4>
+                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>โทรศัพท์: 074-287076</h4>
                     <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>e-mail : wimon@coe.psu.ac.th </h4>
-                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}>Facebook: NSC Thailand Southern Region</h4>
+                    <h4 style={{ textAlign:'left',marginTop:'10px',marginLeft:'25px'}}> Facebook: <a href="https://web.facebook.com/nsc.th">NSC Thailand Southern Region</a> </h4>
                     
                     
             
