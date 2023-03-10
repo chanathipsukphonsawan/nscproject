@@ -1,11 +1,11 @@
-import { TextField, Button, Box, Typography, CssBaseline, Avatar, FormControlLabel, Checkbox, Grid, Link, Input } from "@mui/material"
+import { TextField, Button, Box, Typography, CssBaseline, Avatar, FormControlLabel, Checkbox, Grid, Link } from "@mui/material"
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from "axios";
 import swal from 'sweetalert';
 import './login.css'
-import { Paper } from '@mui/material';
 import { Container } from '@mui/system';
+import conf from "../../conf";
 
 
 
@@ -25,7 +25,7 @@ const Login = () => {
   };
 
   const buttonlogin = async () => {
-    const url = "http://localhost:1337/api/auth/local";
+    const url = `${conf.apiPrefix}/auth/local`;
     try {
       if (user.identifier && user.password) {
         const { data } = await axios.post(url, user);
@@ -58,7 +58,7 @@ const Login = () => {
           }}
         >
           <Avatar sx={{ m: 2, width: 60, height: 60}}>
-            <img maxWidth src={require("../images/circleNsc.png")}/>
+          <img maxWidth alt="NSC logo" src={require("../images/circleNsc.png")} />
           </Avatar>
           <Typography component="h1" variant="h5" fontFamily={"Sukhumvit Set"}>
             <div>

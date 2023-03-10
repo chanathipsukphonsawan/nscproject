@@ -1,18 +1,24 @@
-import Loginbar from '../component/Custom/custom'
-import './background.css'
+import Loginbar from '../component/Custom/custom';
+import './background.css';
 import { useNavigate } from 'react-router-dom';
-import { Paper  } from "@mui/material";
+import { Paper } from "@mui/material";
 
 
-const Publicpage =()=>{
-    const navigate = useNavigate();
+const Publicpage: React.FC = () => {
+  const navigate = useNavigate();
 
   const Announcement = () => {
-    navigate('/Announcement1')}
+    navigate('/Announcement1');
+  }
+
   const Announcement2 = () => {
-    navigate('/Announcement2')}
-const details = () => {
-    navigate('/Details')}
+    navigate('/Announcement2');
+  }
+
+  const details = () => {
+    navigate('/Details');
+  }
+
     return(
     <div style={{backgroundColor:'#88F3E4',height:'1000px'}}>
     <div className='container1'>
@@ -34,14 +40,19 @@ const details = () => {
                     
                    
 
-                    <img src={require("../image/ann.png")} style={{width:'5%',marginRight:'3%',marginTop:'3%'}}/>
-                        <a onClick={details} href="#" className='announcement-button'  >  รายละเอียดการสมัคร NSC ครั้งที่ 24</a>
+                    <img src={require("../image/ann.png")} alt="img" style={{width:'5%',marginRight:'3%',marginTop:'3%'}}/>
+                    <button onClick={details} className='announcement-button' type='button'>  รายละเอียดการสมัคร NSC ครั้งที่ 24</button>
+
                     <h1> </h1>
-                    <img src={require("../image/ann.png")} style={{width:'5%',marginRight:'3%',marginTop:'3%'}}/>
-                        <a onClick={Announcement} href="#" className='announcement-button' >ประกาศผลรอบข้อเสนอโครงการ รอบที่ 1</a>
+                    <img src={require("../image/ann.png")} alt="img" style={{width:'5%',marginRight:'3%',marginTop:'3%'}}/>
+                    <button onClick={Announcement} className='announcement-button' type='button'>  ประกาศผลรอบข้อเสนอโครงการ รอบที่ 1</button>
+                
+
                     <h1>  </h1>
-                    <img src={require("../image/ann.png")} style={{width:'5%',marginRight:'3%',marginTop:'3%'}}/>
-                        <a onClick={Announcement2} href="#" className='announcement-button' >ประกาศผลรอบข้อเสนอโครงการ รอบที่ 2</a>
+                    <img src={require("../image/ann.png")} alt="img" style={{width:'5%',marginRight:'3%',marginTop:'3%'}}/>
+                    <button onClick={Announcement2} className='announcement-button' type='button'>  ประกาศผลรอบข้อเสนอโครงการ รอบที่ 2</button>
+                    
+
                 </div>
         
                 

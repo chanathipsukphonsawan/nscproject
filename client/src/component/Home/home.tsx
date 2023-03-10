@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import axios, { AxiosResponse } from 'axios';
 import UserModel from "../../model/usermodel";
 import { Paper  } from "@mui/material";
+import conf from "../../conf";
 
 
 const Home = (): JSX.Element => {
@@ -16,7 +17,7 @@ const Home = (): JSX.Element => {
     const token: string | null = localStorage.getItem('jwt');
 
     if (token) {
-      axios.get<UserModel>('http://localhost:1337/api/users/me?populate=*', {
+      axios.get<UserModel>(`${conf.apiPrefix}/api/users/me?populate=*`, {
         headers: {
           Authorization: `Bearer ${token}`,
         }
