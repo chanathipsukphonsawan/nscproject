@@ -21,7 +21,7 @@ const details = () => {
         <Paper elevation={24} className='paper'>
         <div className='bg'>
 
-                    <h1 style={{fontSize: 30,marginTop:'10%',color:'blue'}}>NSC - Southern Thailand ศูนย์ประสานงานโครงการ NSC ภาคใต้ ที่มาและความสําคัญ</h1>
+                    <h1 style={{fontSize: 30,marginTop:'10%',color:'blue'}}>NSC - Southern Thailand ศูนย์ประสานงานโครงการ NSC ภาคใต้</h1>
     
                         <p>
                             การแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทยหรือ NSC (National Software Contest) 

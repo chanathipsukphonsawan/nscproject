@@ -33,16 +33,10 @@
     float: left;
 }
 
-.input-field .input{
-    height: 45px;
-    width: 100%;
-    border: none;
-    border-radius: 30px;
-    color: #000;
+.input-field {
     font-size: 15px;
-    padding: 0 0 0 45px;
-    background: #b8ecfa;
     outline: none;
+    opacity: 0.8;
 }
 
 .line{
@@ -54,7 +48,7 @@
 }
 .submit{
     border: none;
-    border-radius: 30px;
+    border-radius: 20px;
     font-size: 15px;
     height: 45px;
     outline: none;
@@ -136,4 +130,12 @@ label a:hover{
     margin: 25%;
     margin-bottom:0% ;
     margin-top: -20%;
+}
+
+.MuiTextField-root{
+    background: #c6e9ff;
+}
+
+body {
+    background-image: url("../images/loginbg.png");
 }

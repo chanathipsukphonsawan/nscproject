@@ -1,7 +1,7 @@
-import { AppBar, Box, Typography } from "@mui/material";
-import { useEffect, useState, Text } from "react";
+import { AppBar, Typography, Grid, Container} from "@mui/material";
+import { useEffect, useState } from "react";
 import { useNavigate } from 'react-router-dom';
-import { Button, Card } from "reactstrap";
+import { Button  } from "reactstrap";
 import "./custom.css"
 import Logo from "./../images/circleNsc.png"
 import App from "../../App";
@@ -13,7 +13,7 @@ const Loginbar =() =>{
     useEffect(()=>{
         const jwt =localStorage.getItem ("jwt")
         setIsLoggedIn(jwt? true : false)
-    },[isLoggedIn]);
+    },[]);
 
     const handdletLogout = () => {
         localStorage.removeItem("jwt")
@@ -23,64 +23,43 @@ const Loginbar =() =>{
     
     return <bar>
         {isLoggedIn ?(
-            <Box>
-                <AppBar position="absolute" style={{padding:"20", background:"#2E3B55", maxHeight:"200vh"}}>
-                    <Card
-                        raised
-                        sx={{
-                            maxWidth: 280,
-                            margin: "0 auto",
-                            padding: "0.1 em",
-                        }}>
-                        <div>
-                            <div className="image-container">
-                                <img className="potrait" src={require=(Logo)} align-item="left" alt="Logo"/>
-                                    <Typography textAlign={"left"} marginLeft={"100px"} marginBottom={"-90px"} 
-                                    marginTop={"-100px"} variant="h6" component="div" fontFamily={"Sukhumvit Set"} 
-                                    fontSize={"24px"} sx={{ flexGrow: 1 }}>
-                                        <p>NSC Southern Thailand 2022 <br/>ศูนย์ประสานงานโครงการ NSC ภาคใต้</p>
-                                    </Typography>
-                                    <div className="button-container">
-                                        <Button className="logout-button" color="inherit"  onClick={handdletLogout}>
-                                            ออกจากระบบ
-                                        </Button>
-                                    </div>
-                            </div>
-                        </div>
-                    </Card>
-                </AppBar>
-            </Box>
+            <AppBar position="fixed" style={{padding:"20", background:'#2E3B55', maxHeight:"200vh"}}>
+                <Container maxWidth="xl">
+                    <Grid container spacing={3}>
+                        <Grid item xs={1.25} marginTop={"12px"}>
+                            <img className="image-arrangement" src={require=(Logo)}/>
+                        </Grid>
+                    <Grid item xs={7.5} marginTop={"20px"} justifyContent="left">
+                        <Typography fontFamily={"Sukhumvit Set"} fontSize="1.12rem">NSC Southern Thailand 2022 ศูนย์ประสานงานโครงการ NSC ภาคใต้</Typography>
+                    </Grid>
+                    <Grid container item xs={1.5}>
+                        <Button className="login-button" color="inherit" onClick={handdletLogout}>
+                            ออกจากระบบ
+                        </Button>
+                    </Grid>
+                </Grid>
+            </Container>
+            </AppBar>
         ):(
-            <Box>
-                <AppBar position="absolute" style={{padding:"20", background:'#2E3B55', maxHeight:"200vh"}}>
-                    <Card
-                        raised
-                        sx={{
-                            maxWidth: 280,
-                            margin: "0 auto",
-                            padding: "0.1 em",
-                        }}>
-                        <div>
-                            <div className="image-container">
-                                <img className="potrait" src={require=(Logo)} align-item= "left" alt="Logo"/>
-                                    <Typography textAlign={"left"} marginLeft={"100px"} marginBottom={"-90px"} 
-                                    marginTop={"-100px"} variant="h6" component="div" fontFamily={"Sukhumvit Set"} 
-                                    fontSize={"24px"} sx={{ flexGrow: 1 }}>
-                                        <p>NSC Southern Thailand 2022 <br/>ศูนย์ประสานงานโครงการ NSC ภาคใต้</p>
-                                    </Typography>
-                                    <div className="button-container">
-                                        <Button className="login-button" color="inherit" justify-items onClick={() => navigate("/login/")}>
-                                            เข้าสู่ระบบ
-                                        </Button>
-                                    </div>
-                            </div>
-                        </div>
-                    </Card>
-                </AppBar>
-            </Box>
+            <AppBar position="fixed" style={{padding:"20", background:'#2E3B55', maxHeight:"200vh"}}>
+                <Container maxWidth="xl">
+                    <Grid container spacing={5}>
+                        <Grid item xs={1.25} marginTop={"12px"}>
+                            <img className="image-arrangement" src={require=(Logo)}/>
+                        </Grid>
+                        <Grid item xs={7.5} marginTop={"20px"} justifyContent="left">
+                            <Typography fontFamily={"Sukhumvit Set"} fontSize="1.1rem">NSC Southern Thailand 2022 ศูนย์ประสานงานโครงการ NSC ภาคใต้</Typography>
+                        </Grid>
+                        <Grid item xs={1}/>
+                        <Grid container item xs={1.5}>
+                            <Button className="login-button" color="inherit" onClick={() => navigate("/login/")}>
+                                เข้าสู่ระบบ
+                            </Button>
+                        </Grid>
+                    </Grid>
+                </Container>
+            </AppBar>
         )}
-
-        
     </bar>
 
 };
