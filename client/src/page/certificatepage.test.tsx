@@ -13,4 +13,4 @@ import Certificatepage from './certificatepage'
         render(<Certificatepage />);
         const checkStatusButton = screen.getByText(/ตัวอย่างใบประกาศนียบัตร/i);
         expect(checkStatusButton).toBeInTheDocument();
-    });
+    }); 
