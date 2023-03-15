@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Container } from "reactstrap";
 import { ToastContainer } from "react-toastify";
 
 import Login from "./component/Login/login";
@@ -12,18 +11,9 @@ import Details from "./page/details";
 import Pdfpage from "./page/pdfpage";
 
 
-const containerStyle: React.CSSProperties = {
-  position: "fixed",
-  top: "20px",
-  right: "20px",
-  width: "100px",
-  height: "50px",
-  fontSize: "18px",
-};
-
 function App(): JSX.Element {
   return (
-    <Container>
+    
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Publicpage />} />
@@ -35,9 +25,9 @@ function App(): JSX.Element {
           <Route path="/certificate" element={<Certificatepage />} />
           <Route path="/pdffile" element={<Pdfpage />} />
         </Routes>
-        <ToastContainer style={containerStyle} />
+        <ToastContainer />
       </BrowserRouter>
-    </Container>
+   
   );
 }
 

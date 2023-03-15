@@ -13,7 +13,7 @@ const Certificatepage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<UserModel>(`${conf.apiPrefix}/api/users/me?populate[announcement][populate]=*`, {
+        const response = await axios.get<UserModel>(`${conf.apiPrefix}/users/me?populate[announcement][populate]=*`, {
           headers: {
             Authorization: `Bearer ${token}`,
           }

@@ -2,6 +2,7 @@ import Loginbar from '../component/Custom/custom';
 import './background.css';
 import { useNavigate } from 'react-router-dom';
 import { Paper } from "@mui/material";
+import conf from '../conf';
 
 
 const Publicpage: React.FC = () => {
@@ -20,7 +21,7 @@ const Publicpage: React.FC = () => {
   }
 
     return(
-    <div style={{backgroundColor:'#88F3E4',height:'1000px'}}>
+    <div style={{backgroundColor:'#88F3E4',height:'1500px'}}>
     <div className='container1'>
     <div  style={{textAlign:'left', display:'contents', justifyContent: 'center',}} className='div1'>
         <Loginbar/>
@@ -41,16 +42,16 @@ const Publicpage: React.FC = () => {
                    
 
                     <img src={require("../image/ann.png")} alt="img" style={{width:'5%',marginRight:'3%',marginTop:'3%'}}/>
-                    <button onClick={details} className='announcement-button' type='button'>  รายละเอียดการสมัคร NSC ครั้งที่ 24</button>
+                    <button onClick={details} className='announcement-button' >  รายละเอียดการสมัคร NSC ครั้งที่ 24</button>
 
                     <h1> </h1>
                     <img src={require("../image/ann.png")} alt="img" style={{width:'5%',marginRight:'3%',marginTop:'3%'}}/>
-                    <button onClick={Announcement} className='announcement-button' type='button'>  ประกาศผลรอบข้อเสนอโครงการ รอบที่ 1</button>
+                    <button onClick={Announcement} className='announcement-button' >  ประกาศผลรอบข้อเสนอโครงการ รอบที่ 1</button>
                 
 
                     <h1>  </h1>
                     <img src={require("../image/ann.png")} alt="img" style={{width:'5%',marginRight:'3%',marginTop:'3%'}}/>
-                    <button onClick={Announcement2} className='announcement-button' type='button'>  ประกาศผลรอบข้อเสนอโครงการ รอบที่ 2</button>
+                    <button onClick={Announcement2} className='announcement-button'>  ประกาศผลรอบข้อเสนอโครงการ รอบที่ 2</button>
                     
 
                 </div>

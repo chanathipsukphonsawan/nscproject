@@ -17,7 +17,7 @@ const Home = (): JSX.Element => {
     const token: string | null = localStorage.getItem('jwt');
 
     if (token) {
-      axios.get<UserModel>(`${conf.apiPrefix}/api/users/me?populate=*`, {
+      axios.get<UserModel>(`${conf.apiPrefix}/users/me?populate=*`, {
         headers: {
           Authorization: `Bearer ${token}`,
         }
